@@ -1,0 +1,58 @@
+.struct apstrc.tvs
+.set sndport 0x1E00000
+.set sndstrb 0xFD00
+.wp WAVEIRQS,UHL
+.wp BOGDMACPU,UHL
+.wp NOAUTOE,UHW
+.wp LASTPROC,UHL
+.wp THISPROC,UHL
+.wp THISWAKE,UHL
+.wp FGLISTS,UHL
+.wp TIMERMAX,UHW
+.wp DMARESTARTS,UHL
+.wp OFREECNT,UHW
+.wp DEBUGOBJ,UHL
+.wp DMAQSTARTS,UHW
+.wp INTADDR,UHL
+.wp LASTINT,UHL
+.WP DMALOCK,UHL
+.km E \ @Vt2.h"CR"
+.km v \ @Vt2.tvs"CR"
+.km V \ @Vt2strc.tvs"CR"
+;**** display SOURCE when cursor on longword in struct or mem display ****
+.km S @M"CR"S"CR"
+;**** display WORDS when cursor on longword in struct or mem display ****
+.km W @M"CR"W"CR"
+;**** SET SWAVE TO TEST WAVE
+.km ^T ^RSWAVE=1"CR"
+;**** SET PC TO CURRENT LINE
+.km ^P ^RPC=AD1"CR"
+;*** ALTERNATE FUNCTION KEYS 1-12 display planes
+.km @!F1 \ @J"HOME"@K*FGLISTS\ OBJ\ OLINK\ FGLISTS"CR"
+.km @!F2 \ @J"HOME"@K*BGLISTS\ OBJ\ OLINK\ BGLISTS"CR"
+.km @!F3 \ @J"HOME"@K*SCORELIST\ OBJ\ OLINK\ FGLISTS+SCORELIST"CR"
+.km @!F4 \ @J"HOME"@K*PREQLIST\ OBJ\ OLINK\ PREQLIST"CR"
+.km @!F5 \ @J"HOME"@K*SHADOWLIST\ OBJ\ OLINK\ SHADOWLIST"CR"
+;*** CONTROL FUNCTION KEYS 1-12 display BACKGROUND PLANES 0-11 ***
+.km ^!F1 \ @J"HOME"@K*BGLISTS\ OBJ\ OLINK\ BGLISTS"CR"
+;*** SHIFT number KEYS display supplemental lists 1-12 ***
+.km 1 \ @J"HOME"@K*(SUPPLSTS+1*>20)\ OBJ\ OSLINK"CR"
+.km 2 \ @J"HOME"@K*(SUPPLSTS+2*>20)\ OBJ\ OSLINK"CR"
+.km 3 \ @J"HOME"@K*(SUPPLSTS+3*>20)\ OBJ\ OSLINK"CR"
+.km 4 \ @J"HOME"@K*(SUPPLSTS+4*>20)\ OBJ\ OSLINK"CR"
+.km 5 \ @J"HOME"@K*(SUPPLSTS+5*>20)\ OBJ\ OSLINK"CR"
+.km 6 \ @J"HOME"@K*(SUPPLSTS+6*>20)\ OBJ\ OSLINK"CR"
+.km 7 \ @J"HOME"@K*(SUPPLSTS+7*>20)\ OBJ\ OSLINK"CR"
+.km 8 \ @J"HOME"@K*(SUPPLSTS+8*>20)\ OBJ\ OSLINK"CR"
+.km 9 \ @J"HOME"@K*(SUPPLSTS+9*>20)\ OBJ\ OSLINK"CR"
+.km 0 \ @J"HOME"@K*(SUPPLSTS+10*>20)\ OBJ\ OSLINK"CR"
+;*** REGULAR FUNCTION KEYS
+.km !f1 \ @J"HOME"@K*ACTIVE\ PRC\ PLINK"CR"
+.km !f2 \ @J"HOME"@K*PACTIVE\ PRC\ PLINK"CR"
+.km !f11 \ @J"HOME"@KB12\ DMAQ\ *"CR"
+.km !f12 \ @J"HOME"@KB12-0C00H\ DMAQ\ *"CR"
+;*** SHIFT FUNCTION KEYS
+.km !F6 \ @J"HOME"@K*FREEZE\ PRC\ PLINK"CR"
+.km !F7 \ @J"HOME"@K*PFREEZE\ PRC\ PLINK"CR"
+
+

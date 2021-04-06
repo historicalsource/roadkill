@@ -1,0 +1,78 @@
+	.DATA
+MISCa_1:
+	.word   40,33
+	.long   05000000H
+	.word   19,16,00H
+	.long   FOR_B_P
+MISCa_2:
+	.word   42,14
+	.long   05002940H
+	.word   20,6,00H
+	.long   FOR_B_P
+MISCa_3:
+	.word   41,8
+	.long   05003ba0H
+	.word   20,3,00H
+	.long   FOR_B_P
+MISCa_4:
+	.word   40,6
+	.long   050045e0H
+	.word   19,2,00H
+	.long   FOR_B_P
+MISCa_5:
+	.word   41,30
+	.long   05004d60H
+	.word   20,14,00H
+	.long   FOR_B_P
+MISCa_6:
+	.word   39,36
+	.long   050073d0H
+	.word   19,17,00H
+	.long   FOR_B_P
+MISCb_1:
+	.word   52,26
+	.long   05009fb0H
+	.word   25,12,00H
+	.long   FOR_B_P
+MISCb_2:
+	.word   50,23
+	.long   0500c9f0H
+	.word   24,11,00H
+	.long   FOR_B_P
+MISCb_3:
+	.word   50,10
+	.long   0500ede0H
+	.word   24,4,00H
+	.long   FOR_B_P
+MISCb_4:
+	.word   46,12
+	.long   0500fd80H
+	.word   22,5,00H
+	.long   FOR_B_P
+MISCb_5:
+	.word   51,26
+	.long   05010ec0H
+	.word   25,12,00H
+	.long   FOR_G_P
+MISCb_6:
+	.word   51,29
+	.long   05013830H
+	.word   25,14,00H
+	.long   FOR_B_P
+MISCb_7:
+	.word   45,20
+	.long   05016668H
+	.word   22,9,00H
+	.long   FOR_B_P
+MISCb_8:
+	.word   54,8
+	.long   05018288H
+	.word   26,3,00H
+	.long   FOR_B_P
+MISCb_9:
+	.word   52,15
+	.long   05019008H
+	.word   25,7,00H
+	.long   FOR_B_P
+	.TEXT
+

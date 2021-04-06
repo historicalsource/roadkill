@@ -1,0 +1,110 @@
+#*****************************************************************************
+*
+* this is a process
+*
+
+ SUBR	sound_watchdog
+
+
+	SLEEPK	1
+
+	move	@SOUNDR,a0		;clear sound data available latch
+
+	movi	0ffaah,a3		;Pull sound section interrupt
+	move	a3,@SOUND		;Hit sound (LOW)
+
+	SLEEPK	8
+
+	movb	@SOUNDR,a3
+	move	a3,@sound_rev		;determine snd board rev.
+
+
+#watchdog_loop
+
+	SLEEP	60
+
+
+	movi	0ffaah,a3		;Pull sound section interrupt
+	move	a3,@SOUND		;Hit sound (LOW)
+
+	movk	8,a14
+	dsj	a14,$			;Slow it down a bit
+
+
+
+	.if	0			;put this back in
+
+;	movi	390/3,a3		;180 micros max firq delay on snd board
+	movi	180,a3			;250 micros max firq delay on snd board
+#lp1	movb	@SOUNDIRQ+B_SIRQ-7,a14
+	jrn	#ok1			;Done?
+	dsj	a3,#lp1
+
+*		timed out, irq must be dead!
+* ERROR #1
+	movi	AUD_SNDERR1,a0		;log it
+	calla	AUD1
+	jruc	#reset_board
+
+
+	.endif
+
+
+
+
+#ok1
+
+	move	@sound_rev,a0		;if old sound board software
+	cmpi	05ah,a0			;then skip these two checks
+	jrne	sound_watchdog
+
+
+	SLEEPK	8			;approx 128 msec delay
+
+	movb	@SOUNDIRQ+B_SDAV-7,a14
+	jrn	#ok2
+
+*		sound data not available
+* ERROR #2
+	movi	AUD_SNDERR2,a0		;log it
+	calla	AUD1
+	jruc	#reset_board
+
+#ok2
+
+	movb	@SOUNDR,a3
+	cmpi	05ah,a3
+	jreq	#watchdog_loop
+
+*		invalid read back value
+* ERROR #3
+	movi	AUD_SNDERR3,a0		;log it
+	calla	AUD1
+#reset_board
+
+	callr	QSNDRST			;quiet hardware sound board reset
+
+	SLEEP	90
+
+	move	@gmqrtr,a0		;restart background tune
+	sll	5,a0
+	addi	#tune_t,a0
+	move	*a0,a0,L
+	calla	snd_play1ovr
+
+	jruc	#watchdog_loop
+
+
+#tune_t	.long	tuneq2_snd,tuneq2_snd,tuneq3_snd,tuneq4_snd,tuneot_snd
+	.long	tuneot_snd,tuneot_snd,tuneot_snd,tuneot_snd
+	.long	tuneot_snd,tuneot_snd,tuneot_snd,tuneot_snd
+
+tuneq2_snd	.word	>f3ff,>8,>8006,0	;Quarter 2 tune
+tuneq3_snd	.word	>f3ff,>8,>8007,0	;Quarter 3 tune
+tuneq4_snd	.word	>f3ff,>8,>8008,0	;Quarter 4 tune
+tuneot_snd	.word	>f3ff,>8,>800b,0	;Quarter o.t.
+
+
+
+******************************************************************************
+

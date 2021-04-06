@@ -1,0 +1,269 @@
+*****************************************************
+TMS340 COFF Linker           Version 6.10
+*****************************************************
+Fri Apr 16 09:37:09 1993
+
+OUTPUT FILE NAME:   <APDIAG.rlo>
+ENTRY POINT SYMBOL: 0
+
+
+MEMORY CONFIGURATION
+
+           name      origin     length     attributes     fill
+         --------   --------   ---------   ----------   --------
+         SCRATCH    01008000   0000f8000      RWIX      
+         IROM       02000000   000400000      RWIX      
+         SEG1       ffc00000   000001800      RWIX      
+         SEG2       ffc01800   000000800      RWIX      
+         SEG3       ffc02000   000000e00      RWIX      
+         SEG5       ffc02e00   000000800      RWIX      
+         SEG4       ffc03600   000000800      RWIX      
+         WBDSEG6    ffc03e00   000002000      RWIX      
+         DIAGSEG7   ffc05e00   000000800      RWIX      
+         ROM        ffc06600   0003fa5c0      RWIX      
+         CKSMAREA   fffffbc0   000000040      RWIX      
+         TRAP31     fffffc00   000000400      RWIX      
+
+
+SECTION ALLOCATION MAP
+
+ output                                  attributes/
+section   page    origin      length       input sections
+--------  ----  ----------  ----------   ----------------
+VECTORS    0    fffffc00    00000000     UNINITIALIZED
+
+IMAGES     0    02000000    00000000     UNINITIALIZED
+
+FIXED      0    01008000    00000000     UNINITIALIZED
+
+OFIXED     0    01008000    00000000     UNINITIALIZED
+
+NFIXED     0    01008000    00000000     UNINITIALIZED
+
+.BSS       0    01008000    00000000     UNINITIALIZED
+
+.bss       0    01008000    00000620     UNINITIALIZED
+                  01008000    00000130     APMENU.OBJ (.bss)
+                  01008130    000000f0     APDTST.OBJ (.bss)
+                  01008220    00000130     APCMOS.OBJ (.bss)
+                  01008350    000002d0     APCOIN.OBJ (.bss)
+
+.text      0    ffc06600    0003cc80     
+                  ffc06600    00018460     APMENU.OBJ (.text)
+                  ffc1ea60    00011ed0     APDTST.OBJ (.text)
+                  ffc30930    00001500     APDUTL.OBJ (.text)
+                  ffc31e30    00003790     APCMOS.OBJ (.text)
+                  ffc355c0    00004d60     APCOIN.OBJ (.text)
+                  ffc3a320    00001860     APWORD.OBJ (.text)
+                  ffc3bb80    00001c90     SYSFONT.OBJ (.text)
+                  ffc3d810    00005a70     APADJ.OBJ (.text)
+
+.TEXT      0    ffc43280    00000000     UNINITIALIZED
+
+.data      0    ffc43280    00013da0     
+                  ffc43280    00013da0     APADJ.OBJ (.data)
+
+.DATA      0    ffc57020    00000000     UNINITIALIZED
+
+SECTDIAG   0    01008620    000006f0     
+                  01008620    000006f0     APDTST.OBJ (SECTDIAG)
+
+CKSUMS     0    01008d10    00000040     
+                  01008d10    00000040     APDTST.OBJ (CKSUMS)
+
+
+GLOBAL SYMBOLS
+
+address  name                             address  name
+-------- ----                             -------- ----
+ffc33880 ADD_DUMP                         01008110 LASTCOLOR
+ffc33210 ADJ_PAGE                         010081d0 FORCEDIP
+ffc0e2e0 ANY_BUT                          01008220 BAD_AUD
+UNDEFED  ATT_MODE_CREDIT                  010083f0 COINFLAG
+ffc328a0 AUD1                             01008400 GAMEUNITS
+ffc32790 AUD                              01008430 OCTO_FLAG
+01008220 BAD_AUD                          ffc06600 DIAG
+ffc0faf0 BEEP_1                           ffc07680 DIGSRT
+ffc3da20 BINBCD                           ffc07cf0 CPU_RET
+ffc080d0 BLASTMESS                        ffc080d0 BLASTMESS
+UNDEFED  BLNKAREA                         ffc0a740 OCTO_AUDS
+ffc13780 BLNKHELP                         ffc0c2e0 GET_PLAYS
+ffc20ed0 BURNIN                           ffc0c4e0 SET_AVGWAVE
+ffc0fcd0 B_MENU                           ffc0e2e0 ANY_BUT
+ffc36af0 CAT_A0                           ffc0e360 WAIT_BUT
+ffc37080 CCOIN                            ffc0e670 CKTEST
+ffc26590 CHECKDIPFREE                     ffc0e7c0 CKDIAG
+ffc36d20 CHECKFREE                        ffc0f010 MENU_TOP
+ffc312a0 CIRCLE                           ffc0f350 SCR_REV_OBJ
+ffc0e7c0 CKDIAG                           ffc0f560 SCR_BOX_OBJ
+ffc412f0 CKDIP                            ffc0f820 COL_INST
+ffc0e670 CKTEST                           ffc0faf0 BEEP_1
+UNDEFED  CLRDMAQ                          ffc0fb70 UHOH
+ffc32920 CLR_AUD                          ffc0fcd0 B_MENU
+ffc325f0 CLR_AUDR                         ffc11b60 ST_STICK
+UNDEFED  CLR_SCRN                         ffc11be0 GETSTICK
+UNDEFED  CLSCRACH                         ffc11f80 FORM_SWS
+ffc336b0 CMOSLOCK                         ffc13560 STD_BORD
+ffc33670 CMOSUNLOCK                       ffc13780 BLNKHELP
+ffc329d0 CMOS_VAL                         ffc138d0 P_FORK
+UNDEFED  COIL_CONTROL                     ffc13970 H_SLAVE
+010083f0 COINFLAG                         ffc14f80 MESS_TITLE
+ffc39a00 COININT                          ffc171e0 ROM_NAME
+ffc24b50 COLORBAR                         ffc178a0 M_CALIBRATE
+UNDEFED  COLOR_START                      ffc17f70 MESS_DRIVER
+ffc0f820 COL_INST                         ffc184b0 MESS_MM
+ffc24910 CONV_PLOT                        ffc1ea60 POWERCMOS
+ffc35cd0 COUNTER_OFF                      ffc20ed0 BURNIN
+ffc35cc0 COUNTER_ON                       ffc210e0 DIAGCPUTEST
+ffc07cf0 CPU_RET                          ffc23f90 POWERTST
+ffc38380 CRED_P                           ffc24910 CONV_PLOT
+ffc36c70 CRED_STRING                      ffc24b50 COLORBAR
+ffc38d10 CR_BOTH                          ffc25050 DIPTEST
+ffc39110 CR_CONTP                         ffc26590 CHECKDIPFREE
+ffc38f70 CR_STRTP                         ffc26cf0 READ_DIP
+ffc332b0 DEF_PAGE                         ffc26f50 SWITCHTEST
+ffc210e0 DIAGCPUTEST                      ffc30930 INITCOLR
+ffc06600 DIAG                             ffc30a10 POINT
+ffc3a320 DICT_LOOKUP                      ffc30ae0 RECTANGLE
+ffc07680 DIGSRT                           ffc30be0 HVLINE
+ffc51af0 DIPCOINTAB                       ffc30db0 STRING
+ffc51b70 DIPCREDTAB                       ffc310c0 STRINGCENTER
+UNDEFED  DIPINIT                          ffc312a0 CIRCLE
+ffc25050 DIPTEST                          ffc31bf0 DSCRCLR
+UNDEFED  DISPATCH_DELAY                   ffc323b0 GET_AUD
+ffc34580 DISPDUMP                         ffc324f0 STORE_AUDIT
+UNDEFED  DISPLAYON                        ffc325f0 CLR_AUDR
+ffc41960 DO_ADJH                          ffc326e0 KILL_AUD
+UNDEFED  DRAWBOX_OBJ                      ffc32790 AUD
+ffc31bf0 DSCRCLR                          ffc328a0 AUD1
+ffc336f0 DUMP_FS                          ffc32920 CLR_AUD
+UNDEFED  EXEC_LP                          ffc329d0 CMOS_VAL
+UNDEFED  EXISTP_ALL                       ffc32a30 FORM_ADC
+ffc33370 FAC_SET                          ffc32c00 F_ADC_S
+UNDEFED  FILLAREA                         ffc32ce0 GET_ADJ
+010081d0 FORCEDIP                         ffc32e70 PUT_ADJ
+ffc32a30 FORM_ADC                         ffc33210 ADJ_PAGE
+ffc11f80 FORM_SWS                         ffc332b0 DEF_PAGE
+ffc52330 FRENCH_1                         ffc33370 FAC_SET
+ffc52380 FRENCH_2                         ffc33670 CMOSUNLOCK
+ffc523d0 FRENCH_3                         ffc336b0 CMOSLOCK
+ffc52420 FRENCH_4                         ffc336f0 DUMP_FS
+ffc52130 FRENCH_ELECTITLE                 ffc33880 ADD_DUMP
+ffc32c00 F_ADC_S                          ffc33d10 SET_PAGE
+01008400 GAMEUNITS                        ffc33e90 RC_BYTE
+UNDEFED  GAME_STATE                       ffc33ee0 WC_BYTE
+ffc521f0 GERMAN_1                         ffc33f30 RC_BYTEI
+ffc52240 GERMAN_2                         ffc33f90 RC_WORD
+ffc52290 GERMAN_3                         ffc34110 RC_LONG
+ffc522e0 GERMAN_4                         ffc34230 RC_LONGI
+ffc52190 GERMAN_ELECTITLE                 ffc34290 WC_BYTEI
+UNDEFED  GETPRC                           ffc342e0 WC_WORD
+ffc11be0 GETSTICK                         ffc343a0 WC_WORDI
+ffc32ce0 GET_ADJ                          ffc343f0 WC_LONG
+ffc323b0 GET_AUD                          ffc344b0 WC_LONGI
+ffc3d810 GET_CSPT                         ffc34580 DISPDUMP
+ffc0c2e0 GET_PLAYS                        ffc35cc0 COUNTER_ON
+ffc3dd10 GO_ADJ                           ffc35cd0 COUNTER_OFF
+UNDEFED  HEXTOASC                         ffc36af0 CAT_A0
+UNDEFED  HSTD_ENTRY_POINT                 ffc36bb0 STRCAT
+UNDEFED  HTOHXASC                         ffc36c70 CRED_STRING
+ffc30be0 HVLINE                           ffc36d20 CHECKFREE
+ffc13970 H_SLAVE                          ffc36d90 SCOIN
+UNDEFED  IDATALEN                         ffc36f80 XCOIN
+ffc30930 INITCOLR                         ffc37000 LCOIN
+UNDEFED  INITDATA                         ffc37080 CCOIN
+UNDEFED  KILALL                           ffc37100 RCOIN
+UNDEFED  KILLPROC_ALL                     ffc38380 CRED_P
+ffc326e0 KILL_AUD                         ffc38c20 NO_CREDS
+01008110 LASTCOLOR                        ffc38d10 CR_BOTH
+ffc37000 LCOIN                            ffc38f70 CR_STRTP
+UNDEFED  LM_PRINTF                        ffc39110 CR_CONTP
+UNDEFED  LM_SETUP                         ffc392b0 P_START
+UNDEFED  L_MESS                           ffc39410 P_CONT
+UNDEFED  MAIN_INIT                        ffc39690 TIMEINIT
+ffc0f010 MENU_TOP                         ffc396a0 TIMEINT
+ffc44f60 MEN_ADJ                          ffc39a00 COININT
+ffc17f70 MESS_DRIVER                      ffc3a190 SLAM
+ffc184b0 MESS_MM                          ffc3a320 DICT_LOOKUP
+ffc14f80 MESS_TITLE                       ffc3bb80 SYSFONT
+ffc178a0 M_CALIBRATE                      ffc3d810 GET_CSPT
+UNDEFED  NOPGFLIP                         ffc3da20 BINBCD
+ffc38c20 NO_CREDS                         ffc3dd10 GO_ADJ
+ffc0a740 OCTO_AUDS                        ffc41250 TAMPEREDP
+01008430 OCTO_FLAG                        ffc412f0 CKDIP
+UNDEFED  PCMOSRET                         ffc41320 SET_COIN_ADJ
+ffc30a10 POINT                            ffc41960 DO_ADJH
+ffc1ea60 POWERCMOS                        ffc44f60 MEN_ADJ
+UNDEFED  POWERRET                         ffc51af0 DIPCOINTAB
+ffc23f90 POWERTST                         ffc51b70 DIPCREDTAB
+UNDEFED  PRCLSP                           ffc51f80 USA_1
+UNDEFED  PRCSLP                           ffc51fb0 USA_2
+UNDEFED  PRINTF                           ffc51fe0 USA_3
+ffc32e70 PUT_ADJ                          ffc52010 USA_4
+ffc39410 P_CONT                           ffc520f0 USA_ELECTITLE
+ffc138d0 P_FORK                           ffc52130 FRENCH_ELECTITLE
+ffc392b0 P_START                          ffc52190 GERMAN_ELECTITLE
+UNDEFED  QSNDRST                          ffc521f0 GERMAN_1
+ffc37100 RCOIN                            ffc52240 GERMAN_2
+ffc33f30 RC_BYTEI                         ffc52290 GERMAN_3
+ffc33e90 RC_BYTE                          ffc522e0 GERMAN_4
+ffc34110 RC_LONG                          ffc52330 FRENCH_1
+ffc34230 RC_LONGI                         ffc52380 FRENCH_2
+ffc33f90 RC_WORD                          ffc523d0 FRENCH_3
+UNDEFED  RD15FONT                         ffc52420 FRENCH_4
+UNDEFED  RD7FONT                          UNDEFED  HSTD_ENTRY_POINT
+ffc26cf0 READ_DIP                         UNDEFED  ATT_MODE_CREDIT
+ffc30ae0 RECTANGLE                        UNDEFED  LM_PRINTF
+ffc171e0 ROM_NAME                         UNDEFED  SKYCOLOR
+ffc36d90 SCOIN                            UNDEFED  TIMER
+ffc0f560 SCR_BOX_OBJ                      UNDEFED  HTOHXASC
+ffc0f350 SCR_REV_OBJ                      UNDEFED  DISPATCH_DELAY
+ffc0c4e0 SET_AVGWAVE                      UNDEFED  COIL_CONTROL
+ffc41320 SET_COIN_ADJ                     UNDEFED  STRINGF
+ffc33d10 SET_PAGE                         UNDEFED  DRAWBOX_OBJ
+UNDEFED  SKYCOLOR                         UNDEFED  EXISTP_ALL
+ffc3a190 SLAM                             UNDEFED  STRNGLEN
+UNDEFED  SLEEP_SWITCHX                    UNDEFED  STRCNRM
+UNDEFED  SNDRES                           UNDEFED  SLEEP_SWITCHX
+UNDEFED  SOUNDSUP                         UNDEFED  QSNDRST
+ffc13560 STD_BORD                         UNDEFED  PRCSLP
+ffc324f0 STORE_AUDIT                      UNDEFED  BLNKAREA
+ffc36bb0 STRCAT                           UNDEFED  LM_SETUP
+UNDEFED  STRCNRMO                         UNDEFED  SOUNDSUP
+UNDEFED  STRCNRM                          UNDEFED  PRCLSP
+ffc310c0 STRINGCENTER                     UNDEFED  KILALL
+ffc30db0 STRING                           UNDEFED  CLRDMAQ
+UNDEFED  STRINGF_RAM                      UNDEFED  DIPINIT
+UNDEFED  STRINGF                          UNDEFED  WARMSET
+UNDEFED  STRLNRM                          UNDEFED  GAME_STATE
+UNDEFED  STRNGLEN                         UNDEFED  RD15FONT
+UNDEFED  STRRNRM                          UNDEFED  KILLPROC_ALL
+ffc11b60 ST_STICK                         UNDEFED  STRINGF_RAM
+UNDEFED  SUCIDE                           UNDEFED  COLOR_START
+ffc26f50 SWITCHTEST                       UNDEFED  DISPLAYON
+UNDEFED  SYSCOPY                          UNDEFED  L_MESS
+ffc3bb80 SYSFONT                          UNDEFED  STRLNRM
+ffc41250 TAMPEREDP                        UNDEFED  SYSCOPY
+ffc39690 TIMEINIT                         UNDEFED  PCMOSRET
+ffc396a0 TIMEINT                          UNDEFED  IDATALEN
+UNDEFED  TIMER                            UNDEFED  NOPGFLIP
+ffc0fb70 UHOH                             UNDEFED  STRCNRMO
+ffc51f80 USA_1                            UNDEFED  INITDATA
+ffc51fb0 USA_2                            UNDEFED  WDISTAB
+ffc51fe0 USA_3                            UNDEFED  EXEC_LP
+ffc52010 USA_4                            UNDEFED  CLSCRACH
+ffc520f0 USA_ELECTITLE                    UNDEFED  MAIN_INIT
+ffc0e360 WAIT_BUT                         UNDEFED  POWERRET
+UNDEFED  WARMSET                          UNDEFED  PRINTF
+ffc34290 WC_BYTEI                         UNDEFED  WDOGDIS
+ffc33ee0 WC_BYTE                          UNDEFED  SNDRES
+ffc344b0 WC_LONGI                         UNDEFED  RD7FONT
+ffc343f0 WC_LONG                          UNDEFED  HEXTOASC
+ffc343a0 WC_WORDI                         UNDEFED  GETPRC
+ffc342e0 WC_WORD                          UNDEFED  CLR_SCRN
+UNDEFED  WDISTAB                          UNDEFED  SUCIDE
+UNDEFED  WDOGDIS                          UNDEFED  FILLAREA
+UNDEFED  WIPEOUT                          UNDEFED  WIPEOUT
+ffc36f80 XCOIN                            UNDEFED  STRRNRM
+
+[189 symbols]

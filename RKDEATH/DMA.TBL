@@ -1,0 +1,43 @@
+
+	.DATA
+TST1:
+	.word   84,55
+	.long   02000000H
+	.word   0,0,01000H
+	.long   onebit
+TST2:
+	.word   72,60
+	.long   0200120cH
+	.word   0,0,02000H
+	.long   twobits
+TST3:
+	.word   104,85
+	.long   020033ccH
+	.word   0,0,03000H
+	.long   nuthree
+TST4:
+	.word   141,113
+	.long   02009b64H
+	.word   0,0,04000H
+	.long   fourbits
+TST5:
+	.word   104,112
+	.long   02019458H
+	.word   0,0,05000H
+	.long   fivebits
+TST6:
+	.word   128,124
+	.long   020277d8H
+	.word   0,0,06000H
+	.long   sixbits
+TST7:
+	.word   154,99
+	.long   0203ebd8H
+	.word   0,0,07000H
+	.long   sevenbts
+TST8:
+	.word   138,95
+	.long   02058cbaH
+	.word   0,0,00H
+	.long   eightbts
+	.TEXT

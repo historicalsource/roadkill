@@ -1,0 +1,14 @@
+apbgdata.asm
+	.def	BAKPLANE,BAKTL,BAKBITS,BAKMODS
+	.def	StrtBgnd
+	.DEF	CREDIT_BGND, SET_WORLDY
+apbgequ.asm
+bgndequ.h
+	WGRASS .EQU	400
+	HGRASS .EQU	82
+	WPREVIEW .EQU	393
+	HPREVIEW .EQU	99
+apbgnd.asm
+	.def	BGND_UD1,BAK_STRT,BAK_END,CLRBBIT
+
+

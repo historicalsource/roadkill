@@ -1,0 +1,263 @@
+*****************************************************
+TMS340 COFF Linker           Version 6.10
+*****************************************************
+Fri Apr 16 09:36:32 1993
+
+OUTPUT FILE NAME:   <APSYSTEM.rlo>
+ENTRY POINT SYMBOL: 0
+
+
+MEMORY CONFIGURATION
+
+           name      origin     length     attributes     fill
+         --------   --------   ---------   ----------   --------
+         SCRATCH    01008000   0000f8000      RWIX      
+         IROM       02000000   000400000      RWIX      
+         SEG1       ffc00000   000001800      RWIX      
+         SEG2       ffc01800   000000800      RWIX      
+         SEG3       ffc02000   000000e00      RWIX      
+         SEG5       ffc02e00   000000800      RWIX      
+         SEG4       ffc03600   000000800      RWIX      
+         WBDSEG6    ffc03e00   000002000      RWIX      
+         DIAGSEG7   ffc05e00   000000800      RWIX      
+         ROM        ffc06600   0003fa5c0      RWIX      
+         CKSMAREA   fffffbc0   000000040      RWIX      
+         TRAP31     fffffc00   000000400      RWIX      
+
+
+SECTION ALLOCATION MAP
+
+ output                                  attributes/
+section   page    origin      length       input sections
+--------  ----  ----------  ----------   ----------------
+VECTORS    0    fffffc00    00000000     UNINITIALIZED
+
+IMAGES     0    02000000    00000000     UNINITIALIZED
+
+FIXED      0    01008000    00000000     UNINITIALIZED
+
+OFIXED     0    01008000    00000000     UNINITIALIZED
+
+NFIXED     0    01008000    00000000     UNINITIALIZED
+
+.BSS       0    01008000    00000000     UNINITIALIZED
+
+.bss       0    01008000    00035ea0     UNINITIALIZED
+                  01008000    00000010     APPALL.OBJ (.bss)
+                  01008010    00034960     APPROC.OBJ (.bss)
+                  0103c970    00000300     APSND.OBJ (.bss)
+                  0103cc70    00001200     APTEXT.OBJ (.bss)
+                  0103de70    00000030     APMISC.OBJ (.bss)
+
+.text      0    ffc06600    00010a90     
+                  ffc06600    00002310     APUTIL.OBJ (.text)
+                  ffc08910    000000f0     --HOLE-- [fill = 0000ffff]
+                  ffc08a00    00002290     APPALL.OBJ (.text)
+                  ffc0ac90    000036b0     APPROC.OBJ (.text)
+                  ffc0e340    00001210     APSND.OBJ (.text)
+                  ffc0f550    00005820     APTEXT.OBJ (.text)
+                  ffc14d70    00001880     APMISC.OBJ (.text)
+                  ffc165f0    00000620     APTV.OBJ (.text)
+                  ffc16c10    00000480     T2PAL.OBJ (.text)
+
+.TEXT      0    ffc17090    00000000     UNINITIALIZED
+
+.data      0    ffc17090    0000c770     
+                  ffc17090    0000c770     APTEXT.OBJ (.data)
+
+.DATA      0    ffc23800    00000000     UNINITIALIZED
+
+
+GLOBAL SYMBOLS
+
+address  name                             address  name
+-------- ----                             -------- ----
+01008010 ACTIVE                           01008000 FREEPALCNT
+UNDEFED  ADD_DUMP                         01008010 ACTIVE
+ffc08c00 A_CHANGE_PAL                     01008030 FREE
+ffc06d30 BLNKAREA2                        01008050 PACTIVE
+ffc06cc0 BLNKAREA                         010080b0 LASTPROC
+UNDEFED  BUYNOW                           010080d0 THISPROC
+ffc08e90 CHANGE_PAL_MULTI                 010080f0 THISWAKE
+ffc08d80 CHANGE_PAL                       01008110 PRIORITY
+ffc08290 CLRBLOCK                         01008140 PFREECNT
+ffc09210 CLRPAL                           01008160 TIMER
+ffc06600 CLRPDATA                         0103cc70 STRNGRAM
+ffc08590 CLRPLAY                          0103ce50 STRINGF_RAM
+ffc14b00 CLRTEXT                          0103de00 STRING1
+ffc08a00 CLR_0PALS                        0103de20 STRING2
+ffc083b0 CLR_SCRN                         0103de40 STRING3
+ffc15200 COLOR_START                      ffc06600 CLRPDATA
+UNDEFED  COLRTEMP                         ffc06700 RANDOMA0
+UNDEFED  COPY_OBJ                         ffc06700 RANDOM
+UNDEFED  CREATE_OBJ                       ffc06800 RANDOMA2
+UNDEFED  CR_CONTP                         ffc06900 RANDU
+UNDEFED  CURPLYRS                         ffc06990 RAND0
+ffc16140 CYCLE1                           ffc06a10 SRAND
+ffc15be0 CYCLE16                          ffc06a90 RANGRAND
+UNDEFED  CkOFREE                          ffc06ae0 RANGERND
+UNDEFED  DEBUGSTACK                       ffc06b80 RANDPER
+ffc08f50 DELETE_PAL                       ffc06c00 FILLAREA
+ffc08fc0 DELPAL                           ffc06c60 FILLAREA2
+UNDEFED  DICT_LOOKUP                      ffc06cc0 BLNKAREA
+UNDEFED  DISPLAYON                        ffc06d30 BLNKAREA2
+ffc07a90 DMAN                             ffc06e50 DRAWBOX
+ffc07da0 DMAQWAIT                         ffc07120 DRAWBOX_OBJ
+UNDEFED  DMARESTARTS                      ffc07870 DTIME
+ffc07c10 DMAWAIT                          ffc078d0 DTIME2
+ffc07ac0 DMAWPAL                          ffc07a90 DMAN
+ffc07120 DRAWBOX_OBJ                      ffc07ac0 DMAWPAL
+ffc06e50 DRAWBOX                          ffc07c10 DMAWAIT
+ffc07870 DTIME                            ffc07da0 DMAQWAIT
+ffc078d0 DTIME2                           ffc08040 SCRCLR
+ffc14da0 DUMCOLL                          ffc08160 SETPPROC
+ffc14d70 DUMCRETS                         ffc08290 CLRBLOCK
+ffc14dd0 DUMPPRINT                        ffc08300 FILBLOCK
+ffc14e40 DUMP_IT                          ffc083b0 CLR_SCRN
+ffc0d400 EXISTP_ALL                       ffc083c0 FILL_SCRN
+UNDEFED  FGLISTS                          ffc08590 CLRPLAY
+UNDEFED  FGPLANECT                        ffc08a00 CLR_0PALS
+ffc08300 FILBLOCK                         ffc08b00 INC_PALCNT
+ffc06c00 FILLAREA                         ffc08c00 A_CHANGE_PAL
+ffc06c60 FILLAREA2                        ffc08c60 GET_PALID
+ffc083c0 FILL_SCRN                        ffc08d80 CHANGE_PAL
+ffc09050 FINDPAL                          ffc08e90 CHANGE_PAL_MULTI
+ffc1e640 FONT150                          ffc08f50 DELETE_PAL
+ffc1e250 FONT151                          ffc08fc0 DELPAL
+ffc1e2c0 FONT152                          ffc09050 FINDPAL
+ffc1e330 FONT153                          ffc091e0 INIT_PAL
+ffc1e3a0 FONT154                          ffc09210 CLRPAL
+ffc1e410 FONT155                          ffc09460 GETFPAL
+ffc1e480 FONT156                          ffc09960 FREEPAL
+ffc1e4f0 FONT157                          ffc09be0 PALSET
+ffc1e560 FONT158                          ffc09d50 PALTRANS
+ffc1e5d0 FONT159                          ffc0a600 PALFXINIT
+01008030 FREE                             ffc0a8e0 PALCYCLEADD
+01008000 FREEPALCNT                       ffc0ac90 PRCDSP
+ffc09960 FREEPAL                          ffc0b070 PRCSLP
+UNDEFED  GAME_STATE                       ffc0b080 PRCLSP
+UNDEFED  GANIOF                           ffc0b5d0 SUCIDE
+UNDEFED  GETAFARG_LONG                    ffc0b860 PINIT
+ffc09460 GETFPAL                          ffc0bac0 GETPPRC
+UNDEFED  GETOBJ                           ffc0bb60 GETPRC
+ffc0bac0 GETPPRC                          ffc0c360 KILL
+ffc0bb60 GETPRC                           ffc0c7e0 KILLPROC_ALL
+UNDEFED  GET_AUD                          ffc0c850 KILALL
+ffc08c60 GET_PALID                        ffc0d400 EXISTP_ALL
+UNDEFED  GSAGOF                           ffc0e480 ONESND
+ffc139a0 HEXTOASC                         ffc0e800 SNDPRC
+ffc13eb0 HTOHXASC                         ffc0efd0 SNDRES
+ffc08b00 INC_PALCNT                       ffc0f440 QSNDRST
+ffc091e0 INIT_PAL                         ffc0f550 PRINTF
+UNDEFED  INSOBJ                           ffc0f630 STRLNRM
+ffc0c850 KILALL                           ffc0f6a0 STRCNRM
+ffc0c7e0 KILLPROC_ALL                     ffc0f710 STRCNRM2
+ffc0c360 KILL                             ffc0f780 STRLNRM2
+UNDEFED  KILOBJ_ALL                       ffc0f7e0 STRRNRM
+UNDEFED  KILOBJ                           ffc0f840 STRLNRMO
+010080b0 LASTPROC                         ffc0f8b0 STRCNRMO
+ffc14ab0 LM_FINIS                         ffc0f920 STRRNRMO
+ffc14ac0 LM_PRINTF                        ffc0f990 STRLNC
+ffc14a60 LM_SETUP                         ffc0f9f0 STRCNC
+ffc14920 L_MESS                           ffc0fa50 STRRNC
+ffc0e480 ONESND                           ffc0fab0 STRLNCF
+01008050 PACTIVE                          ffc0fb10 STRRNCF
+ffc0a8e0 PALCYCLEADD                      ffc0fb70 STRLNCOF
+UNDEFED  PALCYCLELIST                     ffc0fbe0 STRRNCOF
+UNDEFED  PALFXFREELIST                    ffc0fc50 STRCNCOF
+ffc0a600 PALFXINIT                        ffc0fd30 STRCNCO
+UNDEFED  PALFXRAM                         ffc0fda0 STRLNRMS
+UNDEFED  PALFXRAMX                        ffc0fe10 STRCNRMS
+UNDEFED  PALRAM                           ffc0fe80 STRRNRMS
+ffc09be0 PALSET                           ffc0fef0 STRCNRMOS
+ffc09d50 PALTRANS                         ffc0ff60 STRRNRMOS
+01008140 PFREECNT                         ffc11660 STRINGF
+ffc0b860 PINIT                            ffc13620 STRNGLEN
+ffc0ac90 PRCDSP                           ffc139a0 HEXTOASC
+ffc0b080 PRCLSP                           ffc13eb0 HTOHXASC
+ffc0b070 PRCSLP                           ffc14920 L_MESS
+ffc0f550 PRINTF                           ffc14a60 LM_SETUP
+01008110 PRIORITY                         ffc14ab0 LM_FINIS
+ffc14bc0 PROC_TEXT                        ffc14ac0 LM_PRINTF
+UNDEFED  PTRRAM                           ffc14b00 CLRTEXT
+UNDEFED  QDMAN2                           ffc14bc0 PROC_TEXT
+UNDEFED  QDMAN                            ffc14d70 DUMCRETS
+ffc0f440 QSNDRST                          ffc14da0 DUMCOLL
+ffc06990 RAND0                            ffc14dd0 DUMPPRINT
+ffc06700 RANDOM                           ffc14e40 DUMP_IT
+ffc06700 RANDOMA0                         ffc151f0 SECURITY
+ffc06800 RANDOMA2                         ffc15200 COLOR_START
+ffc06b80 RANDPER                          ffc15be0 CYCLE16
+ffc06900 RANDU                            ffc16140 CYCLE1
+UNDEFED  RAND                             ffc165f0 TVBP
+ffc06ae0 RANGERND                         ffc16640 TVBPX
+ffc06a90 RANGRAND                         ffc16720 ROMTRAP
+ffc211d0 RD15FONT                         ffc168d0 TVPATCH
+ffc22a90 RD20FONT                         ffc16c10 TEXTPAL
+ffc1fa10 RD5FONT                          ffc16c10 TVPATCHX
+ffc205f0 RD7FONT                          ffc16ef0 T2FIXED
+UNDEFED  READOTHERINP                     ffc1e250 FONT151
+ffc16720 ROMTRAP                          ffc1e2c0 FONT152
+ffc08040 SCRCLR                           ffc1e330 FONT153
+ffc151f0 SECURITY                         ffc1e3a0 FONT154
+UNDEFED  SEC_FLAG                         ffc1e410 FONT155
+ffc08160 SETPPROC                         ffc1e480 FONT156
+UNDEFED  SKYCOLOR                         ffc1e4f0 FONT157
+ffc0e800 SNDPRC                           ffc1e560 FONT158
+ffc0efd0 SNDRES                           ffc1e5d0 FONT159
+UNDEFED  SOUNDSUP                         ffc1e640 FONT150
+UNDEFED  SOUND_COPY                       ffc1fa10 RD5FONT
+ffc21e30 SP15FONT                         ffc205f0 RD7FONT
+ffc06a10 SRAND                            ffc211d0 RD15FONT
+ffc0f9f0 STRCNC                           ffc21e30 SP15FONT
+ffc0fd30 STRCNCO                          ffc22a90 RD20FONT
+ffc0fc50 STRCNCOF                         ffc23730 SUFFIX_S
+ffc0f710 STRCNRM2                         ffc23738 SUFFIX_NULL
+ffc0f8b0 STRCNRMO                         UNDEFED  GANIOF
+ffc0fef0 STRCNRMOS                        UNDEFED  COPY_OBJ
+ffc0f6a0 STRCNRM                          UNDEFED  DICT_LOOKUP
+ffc0fe10 STRCNRMS                         UNDEFED  KILOBJ
+0103de00 STRING1                          UNDEFED  BUYNOW
+0103de20 STRING2                          UNDEFED  KILOBJ_ALL
+0103de40 STRING3                          UNDEFED  GETOBJ
+ffc11660 STRINGF                          UNDEFED  WAVE
+0103ce50 STRINGF_RAM                      UNDEFED  SEC_FLAG
+ffc0fab0 STRLNCF                          UNDEFED  CR_CONTP
+ffc0fb70 STRLNCOF                         UNDEFED  CURPLYRS
+ffc0f990 STRLNC                           UNDEFED  ADD_DUMP
+ffc0f780 STRLNRM2                         UNDEFED  GET_AUD
+ffc0f840 STRLNRMO                         UNDEFED  SKYCOLOR
+ffc0f630 STRLNRM                          UNDEFED  COLRTEMP
+ffc0fda0 STRLNRMS                         UNDEFED  WAVETIME
+ffc13620 STRNGLEN                         UNDEFED  PALCYCLELIST
+0103cc70 STRNGRAM                         UNDEFED  PTRRAM
+ffc0fb10 STRRNCF                          UNDEFED  GETAFARG_LONG
+ffc0fa50 STRRNC                           UNDEFED  WAVEIRQS
+ffc0fbe0 STRRNCOF                         UNDEFED  PALFXFREELIST
+ffc0ff60 STRRNRMOS                        UNDEFED  PALRAM
+ffc0f7e0 STRRNRM                          UNDEFED  PALFXRAMX
+ffc0f920 STRRNRMO                         UNDEFED  GSAGOF
+ffc0fe80 STRRNRMS                         UNDEFED  RAND
+ffc0b5d0 SUCIDE                           UNDEFED  QDMAN
+ffc23738 SUFFIX_NULL                      UNDEFED  DISPLAYON
+ffc23730 SUFFIX_S                         UNDEFED  DMARESTARTS
+UNDEFED  SWITCHSTACK                      UNDEFED  CREATE_OBJ
+UNDEFED  SWITCHST                         UNDEFED  INSOBJ
+ffc16ef0 T2FIXED                          UNDEFED  QDMAN2
+ffc16c10 TEXTPAL                          UNDEFED  TIMEINT
+010080d0 THISPROC                         UNDEFED  SWITCHSTACK
+010080f0 THISWAKE                         UNDEFED  FGLISTS
+UNDEFED  TIMEINT                          UNDEFED  TIMERMAX
+01008160 TIMER                            UNDEFED  SOUNDSUP
+UNDEFED  TIMERMAX                         UNDEFED  SOUND_COPY
+ffc16640 TVBPX                            UNDEFED  CkOFREE
+ffc165f0 TVBP                             UNDEFED  SWITCHST
+ffc16c10 TVPATCHX                         UNDEFED  FGPLANECT
+ffc168d0 TVPATCH                          UNDEFED  DEBUGSTACK
+UNDEFED  UNSTACKSWITCHES                  UNDEFED  PALFXRAM
+UNDEFED  WAVETIME                         UNDEFED  GAME_STATE
+UNDEFED  WAVE                             UNDEFED  UNSTACKSWITCHES
+UNDEFED  WAVEIRQS                         UNDEFED  READOTHERINP
+UNDEFED  YZSORT                           UNDEFED  YZSORT
+
+[187 symbols]

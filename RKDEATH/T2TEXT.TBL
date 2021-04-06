@@ -1,0 +1,1259 @@
+	.DATA
+T2FONT20A:
+	.word	30,20
+	.long	>2000000
+	.word	0,0
+T2FONT20B:
+	.word	21,20
+	.long	>2001400
+	.word	0,0
+T2FONT20C:
+	.word	21,20
+	.long	>2002300
+	.word	0,0
+T2FONT20D:
+	.word	21,20
+	.long	>2003200
+	.word	0,0
+T2FONT20E:
+	.word	21,20
+	.long	>2004100
+	.word	0,0
+T2FONT20F:
+	.word	21,20
+	.long	>2005000
+	.word	0,0
+T2FONT20G:
+	.word	21,20
+	.long	>2005F00
+	.word	0,0
+T2FONT20H:
+	.word	21,20
+	.long	>2006E00
+	.word	0,0
+T2FONT20I:
+	.word	6,20
+	.long	>2007D00
+	.word	0,0
+T2FONT20J:
+	.word	19,20
+	.long	>2008200
+	.word	0,0
+T2FONT20K:
+	.word	25,20
+	.long	>2008E80
+	.word	0,0
+T2FONT20L:
+	.word	19,20
+	.long	>200A000
+	.word	0,0
+T2FONT20M:
+	.word	31,20
+	.long	>200AC80
+	.word	0,0
+T2FONT20N:
+	.word	22,20
+	.long	>200C080
+	.word	0,0
+T2FONT20O:
+	.word	28,20
+	.long	>200CF80
+	.word	0,0
+T2FONT20P:
+	.word	21,20
+	.long	>200E100
+	.word	0,0
+T2FONT20Q:
+	.word	28,23
+	.long	>200F000
+	.word	0,0
+T2FONT20R:
+	.word	23,20
+	.long	>2010420
+	.word	0,0
+T2FONT20S:
+	.word	21,20
+	.long	>2011320
+	.word	0,0
+T2FONT20T:
+	.word	21,20
+	.long	>2012220
+	.word	0,0
+T2FONT20U:
+	.word	19,20
+	.long	>2013120
+	.word	0,0
+T2FONT20V:
+	.word	26,20
+	.long	>2013DA0
+	.word	0,0
+T2FONT20W:
+	.word	44,20
+	.long	>2014F20
+	.word	0,0
+T2FONT20X:
+	.word	27,20
+	.long	>2016AA0
+	.word	0,0
+T2FONT20Y:
+	.word	21,20
+	.long	>2017C20
+	.word	0,0
+T2FONT20Z:
+	.word	21,20
+	.long	>2018B20
+	.word	0,0
+T2FONT201:
+	.word	8,20
+	.long	>2019A20
+	.word	0,0
+T2FONT202:
+	.word	21,20
+	.long	>2019F20
+	.word	0,0
+T2FONT203:
+	.word	21,20
+	.long	>201AE20
+	.word	0,0
+T2FONT204:
+	.word	21,20
+	.long	>201BD20
+	.word	0,0
+T2FONT205:
+	.word	21,20
+	.long	>201CC20
+	.word	0,0
+T2FONT206:
+	.word	21,20
+	.long	>201DB20
+	.word	0,0
+T2FONT207:
+	.word	22,20
+	.long	>201EA20
+	.word	0,0
+T2FONT208:
+	.word	21,20
+	.long	>201F920
+	.word	0,0
+T2FONT209:
+	.word	21,20
+	.long	>2020820
+	.word	0,0
+T2FONT200:
+	.word	24,20
+	.long	>2021720
+	.word	0,0
+T2FONT20COM:
+	.word	7,9
+	.long	>2022620
+	.word	0,-16
+T2FONT20PER:
+	.word	7,5
+	.long	>2022860
+	.word	0,-16
+T2FONT20COL:
+	.word	7,16
+	.long	>20229A0
+	.word	0,-4
+T2FONT20EXC:
+	.word	7,20
+	.long	>2022DA0
+	.word	0,-1
+T2FONT8A:
+	.word	6,8
+	.long	>20232A0
+	.word	0,0
+T2FONT8B:
+	.word	6,8
+	.long	>20234A0
+	.word	0,0
+T2FONT8C:
+	.word	6,8
+	.long	>20236A0
+	.word	0,0
+T2FONT8D:
+	.word	6,8
+	.long	>20238A0
+	.word	0,0
+T2FONT8E:
+	.word	6,8
+	.long	>2023AA0
+	.word	0,0
+T2FONT8F:
+	.word	6,8
+	.long	>2023CA0
+	.word	0,0
+T2FONT8G:
+	.word	6,8
+	.long	>2023EA0
+	.word	0,0
+T2FONT8H:
+	.word	6,8
+	.long	>20240A0
+	.word	0,0
+T2FONT8I:
+	.word	2,8
+	.long	>20242A0
+	.word	0,0
+T2FONT8J:
+	.word	6,8
+	.long	>20243A0
+	.word	0,0
+T2FONT8K:
+	.word	6,8
+	.long	>20245A0
+	.word	0,0
+T2FONT8L:
+	.word	5,8
+	.long	>20247A0
+	.word	0,0
+T2FONT8M:
+	.word	10,8
+	.long	>20249A0
+	.word	0,0
+T2FONT8N:
+	.word	7,8
+	.long	>2024CA0
+	.word	0,0
+T2FONT8O:
+	.word	7,8
+	.long	>2024EA0
+	.word	0,0
+T2FONT8P:
+	.word	6,8
+	.long	>20250A0
+	.word	0,0
+T2FONT8Q:
+	.word	7,9
+	.long	>20252A0
+	.word	0,0
+T2FONT8R:
+	.word	6,8
+	.long	>20254E0
+	.word	0,0
+T2FONT8S:
+	.word	6,8
+	.long	>20256E0
+	.word	0,0
+T2FONT8T:
+	.word	6,8
+	.long	>20258E0
+	.word	0,0
+T2FONT8U:
+	.word	6,8
+	.long	>2025AE0
+	.word	0,0
+T2FONT8V:
+	.word	7,8
+	.long	>2025CE0
+	.word	0,0
+T2FONT8W:
+	.word	11,8
+	.long	>2025EE0
+	.word	0,0
+T2FONT8X:
+	.word	7,8
+	.long	>20261E0
+	.word	0,0
+T2FONT8Y:
+	.word	6,8
+	.long	>20263E0
+	.word	0,0
+T2FONT8Z:
+	.word	6,8
+	.long	>20265E0
+	.word	0,0
+T2FONT81:
+	.word	4,8
+	.long	>20267E0
+	.word	0,0
+T2FONT82:
+	.word	6,8
+	.long	>20268E0
+	.word	0,0
+T2FONT83:
+	.word	6,8
+	.long	>2026AE0
+	.word	0,0
+T2FONT84:
+	.word	6,8
+	.long	>2026CE0
+	.word	0,0
+T2FONT85:
+	.word	6,8
+	.long	>2026EE0
+	.word	0,0
+T2FONT86:
+	.word	6,8
+	.long	>20270E0
+	.word	0,0
+T2FONT87:
+	.word	6,8
+	.long	>20272E0
+	.word	0,0
+T2FONT88:
+	.word	6,8
+	.long	>20274E0
+	.word	0,0
+T2FONT89:
+	.word	6,8
+	.long	>20276E0
+	.word	0,0
+T2FONT80:
+	.word	6,8
+	.long	>20278E0
+	.word	0,0
+T2FONT8COM:
+	.word	2,4
+	.long	>2027AE0
+	.word	0,-6
+T2FONT8PER:
+	.word	2,2
+	.long	>2027B60
+	.word	0,-6
+T2FONT8COL:
+	.word	2,6
+	.long	>2027BA0
+	.word	0,-1
+T2FONT8EXC:
+	.word	2,8
+	.long	>2027C60
+	.word	0,0
+T2FONT15A:
+	.word	21,16
+	.long	>2027D60
+	.word	0,0
+T2FONT15B:
+	.word	14,16
+	.long	>2028960
+	.word	0,0
+T2FONT15C:
+	.word	14,16
+	.long	>2029160
+	.word	0,0
+T2FONT15D:
+	.word	14,16
+	.long	>2029960
+	.word	0,0
+T2FONT15E:
+	.word	14,16
+	.long	>202A160
+	.word	0,0
+T2FONT15F:
+	.word	14,16
+	.long	>202A960
+	.word	0,0
+T2FONT15G:
+	.word	14,16
+	.long	>202B160
+	.word	0,0
+T2FONT15H:
+	.word	14,16
+	.long	>202B960
+	.word	0,0
+T2FONT15I:
+	.word	3,16
+	.long	>202C160
+	.word	0,0
+T2FONT15J:
+	.word	14,16
+	.long	>202C360
+	.word	0,0
+T2FONT15K:
+	.word	14,16
+	.long	>202CB60
+	.word	0,0
+T2FONT15L:
+	.word	14,16
+	.long	>202D360
+	.word	0,0
+T2FONT15M:
+	.word	20,16
+	.long	>202DB60
+	.word	0,0
+T2FONT15N:
+	.word	15,16
+	.long	>202E560
+	.word	0,0
+T2FONT15O:
+	.word	14,16
+	.long	>202ED60
+	.word	0,0
+T2FONT15P:
+	.word	14,16
+	.long	>202F560
+	.word	0,0
+T2FONT15Q:
+	.word	14,16
+	.long	>202FD60
+	.word	0,0
+T2FONT15R:
+	.word	16,16
+	.long	>2030560
+	.word	0,0
+T2FONT15S:
+	.word	14,16
+	.long	>2030D60
+	.word	0,0
+T2FONT15T:
+	.word	15,16
+	.long	>2031560
+	.word	0,0
+T2FONT15U:
+	.word	14,16
+	.long	>2031D60
+	.word	0,0
+T2FONT15V:
+	.word	14,16
+	.long	>2032560
+	.word	0,0
+T2FONT15W:
+	.word	20,16
+	.long	>2032D60
+	.word	0,0
+T2FONT15X:
+	.word	20,16
+	.long	>2033760
+	.word	0,0
+T2FONT15Y:
+	.word	20,16
+	.long	>2034160
+	.word	0,0
+T2FONT15Z:
+	.word	14,16
+	.long	>2034B60
+	.word	0,0
+T2FONT151:
+	.word	5,16
+	.long	>2035360
+	.word	0,0
+T2FONT152:
+	.word	14,16
+	.long	>2035760
+	.word	0,0
+T2FONT153:
+	.word	14,16
+	.long	>2035F60
+	.word	0,0
+T2FONT154:
+	.word	15,16
+	.long	>2036760
+	.word	0,0
+T2FONT155:
+	.word	14,16
+	.long	>2036F60
+	.word	0,0
+T2FONT156:
+	.word	14,16
+	.long	>2037760
+	.word	0,0
+T2FONT157:
+	.word	15,16
+	.long	>2037F60
+	.word	0,0
+T2FONT158:
+	.word	14,16
+	.long	>2038760
+	.word	0,0
+T2FONT159:
+	.word	14,16
+	.long	>2038F60
+	.word	0,0
+T2FONT150:
+	.word	14,16
+	.long	>2039760
+	.word	0,0
+T2FONT15COM:
+	.word	5,6
+	.long	>2039F60
+	.word	0,-13
+T2FONT15PER:
+	.word	5,3
+	.long	>203A0E0
+	.word	0,-13
+T2FONT15LPRN:
+	.word	6,20
+	.long	>203A1A0
+	.word	0,3
+T2FONT15RPRN:
+	.word	6,20
+	.long	>203A6A0
+	.word	0,3
+T2FONT20TM:
+	.word	11,4
+	.long	>203ABA0
+	.word	0,3
+T2FONT20REG:
+	.word	8,8
+	.long	>203AD20
+	.word	0,5
+T2FONT20COPY:
+	.word	11,9
+	.long	>203AF20
+	.word	0,-10
+T2FONT20GERB:
+	.word	23,20
+	.long	>203B280
+	.word	0,0
+T2FONT20GERA:
+	.word	30,25
+	.long	>203C180
+	.word	0,5
+T2FONT20GERO:
+	.word	28,25
+	.long	>203DA80
+	.word	0,5
+T2FONT20GERU:
+	.word	19,25
+	.long	>203F060
+	.word	0,5
+T2FONT8TM:
+	.word	9,3
+	.long	>2040000
+	.word	0,3
+T2FONT8REG:
+	.word	7,8
+	.long	>2040120
+	.word	0,5
+T2FONT8COPY:
+	.word	7,8
+	.long	>2040320
+	.word	0,0
+T2FONT8GERB:
+	.word	7,8
+	.long	>2040520
+	.word	0,0
+T2FONT8GERA:
+	.word	6,10
+	.long	>2040720
+	.word	0,2
+T2FONT8GER0:
+	.word	7,10
+	.long	>20409A0
+	.word	0,2
+T2FONT8GERU:
+	.word	6,10
+	.long	>2040C20
+	.word	0,2
+T2FONT15TM:
+	.word	11,4
+	.long	>2040EA0
+	.word	0,2
+T2FONT15REG:
+	.word	8,8
+	.long	>2041020
+	.word	0,4
+T2FONT15COPY:
+	.word	8,8
+	.long	>2041220
+	.word	0,-7
+T2FONT15GERB:
+	.word	15,16
+	.long	>2041420
+	.word	1,0
+T2FONT15GERA:
+	.word	21,20
+	.long	>2041C20
+	.word	0,4
+T2FONT15GERO:
+	.word	14,20
+	.long	>2042B20
+	.word	0,4
+T2FONT15GERU:
+	.word	14,20
+	.long	>2043520
+	.word	0,4
+FONT5A:
+	.word	4,5
+	.long	>2043F20
+	.word	0,0
+FONT5B:
+	.word	4,5
+	.long	>2043FC0
+	.word	0,0
+FONT5C:
+	.word	4,5
+	.long	>2044060
+	.word	0,0
+FONT5D:
+	.word	4,5
+	.long	>2044100
+	.word	0,0
+FONT5E:
+	.word	4,5
+	.long	>20441A0
+	.word	0,0
+FONT5F:
+	.word	4,5
+	.long	>2044240
+	.word	0,0
+FONT5G:
+	.word	4,5
+	.long	>20442E0
+	.word	0,0
+FONT5H:
+	.word	4,5
+	.long	>2044380
+	.word	0,0
+FONT5I:
+	.word	1,5
+	.long	>2044420
+	.word	0,0
+FONT5J:
+	.word	4,5
+	.long	>20444C0
+	.word	0,0
+FONT5K:
+	.word	4,5
+	.long	>2044560
+	.word	0,0
+FONT5L:
+	.word	4,5
+	.long	>2044600
+	.word	0,0
+FONT5M:
+	.word	5,5
+	.long	>20446A0
+	.word	0,0
+FONT5N:
+	.word	4,5
+	.long	>20447E0
+	.word	0,0
+FONT5O:
+	.word	4,5
+	.long	>2044880
+	.word	0,0
+FONT5P:
+	.word	4,5
+	.long	>2044920
+	.word	0,0
+FONT5Q:
+	.word	4,5
+	.long	>20449C0
+	.word	0,0
+FONT5R:
+	.word	4,5
+	.long	>2044A60
+	.word	0,0
+FONT5S:
+	.word	4,5
+	.long	>2044B00
+	.word	0,0
+FONT5T:
+	.word	5,5
+	.long	>2044BA0
+	.word	0,0
+FONT5U:
+	.word	4,5
+	.long	>2044CE0
+	.word	0,0
+FONT5V:
+	.word	5,5
+	.long	>2044D80
+	.word	0,0
+FONT5W:
+	.word	5,5
+	.long	>2044EC0
+	.word	0,0
+FONT5X:
+	.word	5,5
+	.long	>2045000
+	.word	0,0
+FONT5Y:
+	.word	4,5
+	.long	>2045140
+	.word	0,0
+FONT5Z:
+	.word	4,5
+	.long	>20451E0
+	.word	0,0
+FONT51:
+	.word	4,5
+	.long	>2045280
+	.word	0,0
+FONT52:
+	.word	4,5
+	.long	>2045320
+	.word	0,0
+FONT53:
+	.word	4,5
+	.long	>20453C0
+	.word	0,0
+FONT54:
+	.word	4,5
+	.long	>2045460
+	.word	0,0
+FONT55:
+	.word	4,5
+	.long	>2045500
+	.word	0,0
+FONT56:
+	.word	4,5
+	.long	>20455A0
+	.word	0,0
+FONT57:
+	.word	4,5
+	.long	>2045640
+	.word	0,0
+FONT58:
+	.word	4,5
+	.long	>20456E0
+	.word	0,0
+FONT59:
+	.word	4,5
+	.long	>2045780
+	.word	0,0
+FONT50:
+	.word	4,5
+	.long	>2045820
+	.word	0,0
+FONT5PER:
+	.word	1,1
+	.long	>20458C0
+	.word	0,-4
+FONT5EXC:
+	.word	1,6
+	.long	>20458E0
+	.word	0,1
+FONT5MIN:
+	.word	4,1
+	.long	>20459A0
+	.word	0,0
+FONT5SLA:
+	.word	4,4
+	.long	>20459C0
+	.word	0,0
+FONT5COLON:
+	.word	4,5
+	.long	>2045A40
+	.word	0,0
+FONT5APOS:
+	.word	2,2
+	.long	>2045AE0
+	.word	0,1
+FONT8MIN:
+	.word	6,2
+	.long	>2045B20
+	.word	0,-3
+FONT8PLUS:
+	.word	6,6
+	.long	>2045BA0
+	.word	0,-1
+FONT8ARRW:
+	.word	6,7
+	.long	>2045D20
+	.word	0,-1
+FONT8QUEST:
+	.word	4,9
+	.long	>2045EE0
+	.word	0,1
+FONT8APOS:
+	.word	2,3
+	.long	>2046000
+	.word	0,0
+FONT8LPAREN:
+	.word	2,8
+	.long	>2046060
+	.word	0,0
+FONT8RPAREN:
+	.word	2,8
+	.long	>2046160
+	.word	0,0
+FONT8SLA:
+	.word	6,8
+	.long	>2046260
+	.word	0,0
+FONT8ASTR:
+	.word	5,7
+	.long	>2046460
+	.word	-1,-1
+FONT8AND:
+	.word	6,8
+	.long	>2046620
+	.word	0,0
+FONT8NUM:
+	.word	6,8
+	.long	>2046820
+	.word	0,0
+FONT8DOLL:
+	.word	6,8
+	.long	>2046A20
+	.word	0,0
+FONT8EQL:
+	.word	6,3
+	.long	>2046C20
+	.word	0,-3
+FONT8POU:
+	.word	6,8
+	.long	>2046CE0
+	.word	0,0
+FONT8SMCOL:
+	.word	2,8
+	.long	>2046EE0
+	.word	-2,-1
+FONT8PERC:
+	.word	6,8
+	.long	>2046FE0
+	.word	0,0
+FONT20LPAREN:
+	.word	7,26
+	.long	>20471E0
+	.word	0,2
+FONT20RPAREN:
+	.word	7,26
+	.long	>2047860
+	.word	0,2
+FONT20SLA:
+	.word	22,22
+	.long	>2047EE0
+	.word	0,0
+FONT20MIN:
+	.word	22,3
+	.long	>2048F60
+	.word	0,-9
+FONT20BACKSP:
+	.word	24,19
+	.long	>20491A0
+	.word	0,-2
+FONT20QUEST:
+	.word	14,24
+	.long	>2049FE0
+	.word	0,3
+FONT5TM:
+	.word	9,3
+	.long	>204ABE0
+	.word	0,2
+FONT5REG:
+	.word	7,8
+	.long	>204AD00
+	.word	1,2
+FONT5COPY:
+	.word	7,8
+	.long	>204AF00
+	.word	1,2
+FONT5GERB:
+	.word	4,5
+	.long	>204B100
+	.word	0,0
+FONT5GERA:
+	.word	4,7
+	.long	>204B1A0
+	.word	0,2
+FONT5GERO:
+	.word	4,7
+	.long	>204B280
+	.word	0,2
+FONT5GERU:
+	.word	4,7
+	.long	>204B360
+	.word	0,2
+FON15and:
+	.word	11,13
+	.long	>204B440
+	.word	0,0
+FON15less:
+	.word	4,7
+	.long	>204B920
+	.word	0,-3
+FON15apos1:
+	.word	2,5
+	.long	>204BA00
+	.word	0,1
+FON15ast:
+	.word	7,8
+	.long	>204BAA0
+	.word	0,-2
+FON15brackl:
+	.word	4,13
+	.long	>204BCA0
+	.word	0,0
+FON15brackr:
+	.word	4,13
+	.long	>204BE40
+	.word	0,0
+FON15break:
+	.word	2,13
+	.long	>204BFE0
+	.word	0,0
+FON15carr:
+	.word	7,4
+	.long	>204C180
+	.word	0,2
+FON15engPOUN:
+	.word	11,15
+	.long	>204C280
+	.word	0,0
+FON15equal:
+	.word	5,6
+	.long	>204C820
+	.word	0,-3
+FON15more:
+	.word	4,7
+	.long	>204C9A0
+	.word	0,-3
+FON15perc:
+	.word	12,13
+	.long	>204CA80
+	.word	0,0
+FONT15PER:
+	.word	2,2
+	.long	>204CF60
+	.word	0,-11
+FONT15COMMA:
+	.word	2,5
+	.long	>204CFA0
+	.word	0,-11
+FON15poun:
+	.word	12,12
+	.long	>204D040
+	.word	0,0
+FON15quote:
+	.word	6,4
+	.long	>204D4C0
+	.word	0,1
+FON15rquote:
+	.word	10,6
+	.long	>204D5C0
+	.word	0,1
+FON15semicol:
+	.word	2,13
+	.long	>204D800
+	.word	0,0
+RD15SP:
+	.word	13,13
+	.long	>204D9A0
+	.word	0,0
+RD15RUB:
+	.word	20,16
+	.long	>204E020
+	.word	0,0
+RD15END:
+	.word	21,16
+	.long	>204EA20
+	.word	0,0
+FON15CR:
+	.word	15,11
+	.long	>204F620
+	.word	0,0
+FONT15A:
+	.word	10,13
+	.long	>204FBA0
+	.word	0,0
+FONT15B:
+	.word	10,13
+	.long	>2050080
+	.word	0,0
+FONT15C:
+	.word	10,13
+	.long	>2050560
+	.word	0,0
+FONT15D:
+	.word	9,13
+	.long	>2050A40
+	.word	0,0
+FONT15E:
+	.word	9,13
+	.long	>2050F20
+	.word	0,0
+FONT15F:
+	.word	9,13
+	.long	>2051400
+	.word	0,0
+FONT15G:
+	.word	10,13
+	.long	>20518E0
+	.word	0,0
+FONT15H:
+	.word	9,13
+	.long	>2051DC0
+	.word	0,0
+FONT15I:
+	.word	2,13
+	.long	>20522A0
+	.word	0,0
+FONT15J:
+	.word	9,13
+	.long	>2052440
+	.word	0,0
+FONT15K:
+	.word	11,13
+	.long	>2052920
+	.word	0,0
+FONT15L:
+	.word	8,13
+	.long	>2052E00
+	.word	0,0
+FONT15M:
+	.word	14,13
+	.long	>2053140
+	.word	0,0
+FONT15N:
+	.word	10,13
+	.long	>20537C0
+	.word	0,0
+FONT15O:
+	.word	11,13
+	.long	>2053CA0
+	.word	0,0
+FONT15P:
+	.word	9,13
+	.long	>2054180
+	.word	0,0
+FONT15Q:
+	.word	12,13
+	.long	>2054660
+	.word	0,0
+FONT15R:
+	.word	9,13
+	.long	>2054B40
+	.word	0,0
+FONT15S:
+	.word	9,13
+	.long	>2055020
+	.word	0,0
+FONT15T:
+	.word	10,13
+	.long	>2055500
+	.word	0,0
+FONT15U:
+	.word	9,13
+	.long	>20559E0
+	.word	0,0
+FONT15V:
+	.word	10,13
+	.long	>2055EC0
+	.word	0,0
+FONT15W:
+	.word	16,13
+	.long	>20563A0
+	.word	0,0
+FONT15X:
+	.word	10,13
+	.long	>2056A20
+	.word	0,0
+FONT15Y:
+	.word	10,13
+	.long	>2056F00
+	.word	0,0
+FONT15Z:
+	.word	10,13
+	.long	>20573E0
+	.word	0,0
+FONT151:
+	.word	5,13
+	.long	>20578C0
+	.word	0,0
+FONT152:
+	.word	9,13
+	.long	>2057C00
+	.word	0,0
+FONT153:
+	.word	9,13
+	.long	>20580E0
+	.word	0,0
+FONT154:
+	.word	10,13
+	.long	>20585C0
+	.word	0,0
+FONT155:
+	.word	9,13
+	.long	>2058AA0
+	.word	0,0
+FONT156:
+	.word	9,13
+	.long	>2058F80
+	.word	0,0
+FONT157:
+	.word	9,13
+	.long	>2059460
+	.word	0,0
+FONT158:
+	.word	10,13
+	.long	>2059940
+	.word	0,0
+FONT159:
+	.word	9,13
+	.long	>2059E20
+	.word	0,0
+FONT150:
+	.word	9,13
+	.long	>205A300
+	.word	0,0
+FONT15a:
+	.word	9,10
+	.long	>205A7E0
+	.word	0,-3
+FONT15b:
+	.word	9,13
+	.long	>205ABA0
+	.word	0,0
+FONT15c:
+	.word	9,10
+	.long	>205B080
+	.word	0,-3
+FONT15d:
+	.word	9,13
+	.long	>205B440
+	.word	0,0
+FONT15e:
+	.word	9,10
+	.long	>205B920
+	.word	0,-3
+FONT15f:
+	.word	7,13
+	.long	>205BCE0
+	.word	0,0
+FONT15g:
+	.word	9,13
+	.long	>205C020
+	.word	0,-3
+FONT15h:
+	.word	9,13
+	.long	>205C500
+	.word	0,0
+FONT15i:
+	.word	2,13
+	.long	>205C9E0
+	.word	0,0
+FONT15j:
+	.word	4,15
+	.long	>205CB80
+	.word	0,0
+FONT15k:
+	.word	9,13
+	.long	>205CD60
+	.word	0,0
+FONT15l:
+	.word	2,13
+	.long	>205D240
+	.word	0,0
+FONT15m:
+	.word	14,10
+	.long	>205D3E0
+	.word	0,-3
+FONT15n:
+	.word	9,10
+	.long	>205D8E0
+	.word	0,-3
+FONT15o:
+	.word	9,10
+	.long	>205DCA0
+	.word	0,-3
+FONT15p:
+	.word	9,14
+	.long	>205E060
+	.word	0,-3
+FONT15q:
+	.word	9,14
+	.long	>205E5A0
+	.word	0,-3
+FONT15r:
+	.word	6,10
+	.long	>205EAE0
+	.word	0,-3
+FONT15s:
+	.word	8,10
+	.long	>205ED60
+	.word	0,-3
+FONT15t:
+	.word	6,12
+	.long	>205EFE0
+	.word	0,-1
+FONT15u:
+	.word	9,10
+	.long	>205F2E0
+	.word	0,-3
+FONT15v:
+	.word	9,10
+	.long	>205F6A0
+	.word	0,-3
+FONT15w:
+	.word	14,10
+	.long	>205FA60
+	.word	0,-3
+FONT15x:
+	.word	8,10
+	.long	>205FF60
+	.word	0,-3
+FONT15y:
+	.word	10,14
+	.long	>20601E0
+	.word	0,-3
+FONT15z:
+	.word	8,10
+	.long	>2060720
+	.word	0,-3
+FONT15DOLL:
+	.word	9,16
+	.long	>20609A0
+	.word	0,2
+FONT15QUEST:
+	.word	8,13
+	.long	>2060FA0
+	.word	0,0
+FONT15COLON:
+	.word	2,10
+	.long	>20612E0
+	.word	0,-1
+FONT15PLUS:
+	.word	6,6
+	.long	>2061420
+	.word	0,-4
+FONT15APOS:
+	.word	2,5
+	.long	>20615A0
+	.word	0,1
+FONT15EXC:
+	.word	2,13
+	.long	>2061640
+	.word	0,0
+FONT15SLASH:
+	.word	8,13
+	.long	>20617E0
+	.word	0,0
+FONT15TM:
+	.word	11,4
+	.long	>2061B20
+	.word	0,4
+FONT15REG:
+	.word	8,8
+	.long	>2061CA0
+	.word	0,7
+FONT15COPY:
+	.word	8,8
+	.long	>2061EA0
+	.word	0,-4
+FONT15GERB:
+	.word	11,13
+	.long	>20620A0
+	.word	0,0
+FONT15GERA:
+	.word	10,16
+	.long	>2062580
+	.word	0,3
+FONT15GERa:
+	.word	9,13
+	.long	>2062B80
+	.word	0,0
+FONT15GERO:
+	.word	11,16
+	.long	>2063060
+	.word	0,3
+FONT15GERo:
+	.word	9,13
+	.long	>2063660
+	.word	0,0
+FONT15GERU:
+	.word	9,16
+	.long	>2063B40
+	.word	0,3
+FONT15GERu:
+	.word	9,13
+	.long	>2064140
+	.word	0,0
+FONT15MINUS:
+	.word	5,2
+	.long	>2064620
+	.word	0,-6
+	.long	TEXTPAL
+	.TEXT

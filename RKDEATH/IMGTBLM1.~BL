@@ -1,0 +1,1323 @@
+	.DATA
+DIRT_A1:
+	.word   12,12
+	.long   022e11f8H
+	.word   5,10,03000H
+	.long   SMOK_P
+DIRT_A2:
+	.word   12,15
+	.long   022e13a8H
+	.word   5,17,03000H
+	.long   DIRTM_P
+DIRT_A3:
+	.word   23,19
+	.long   022e15c4H
+	.word   11,22,03000H
+	.long   DIRTM_P
+DIRT_A4:
+	.word   17,22
+	.long   022e1ae3H
+	.word   7,26,03000H
+	.long   DIRTM_P
+DIRT_A5:
+	.word   20,27
+	.long   022e1f45H
+	.word   9,35,03000H
+	.long   DIRTM_P
+DIRT_A6:
+	.word   21,24
+	.long   022e2599H
+	.word   8,35,03000H
+	.long   DIRTM_P
+DIRT_BC1:
+	.word   13,9
+	.long   022e2b81H
+	.word   0,1,03000H
+	.long   DIRTM_P
+DIRT_BC2:
+	.word   17,12
+	.long   022e2ce0H
+	.word   -2,-2,03000H
+	.long   DIRTM_P
+DIRT_BC3:
+	.word   22,17
+	.long   022e2f44H
+	.word   -4,-3,03000H
+	.long   DIRTM_P
+DIRT_BC4:
+	.word   22,16
+	.long   022e33a6H
+	.word   -6,-6,03000H
+	.long   DIRTM_P
+DIRT_BC5:
+	.word   21,17
+	.long   022e37c6H
+	.word   -10,-10,03000H
+	.long   DIRTM_P
+DIRT_BC6:
+	.word   18,14
+	.long   022e3bf5H
+	.word   -17,-14,03000H
+	.long   DIRTM_P
+DIRT_DE1:
+	.word   16,8
+	.long   022e3ee9H
+	.word   1,1,03000H
+	.long   DIRTM_P
+DIRT_DE2:
+	.word   18,9
+	.long   022e4069H
+	.word   -2,-1,03000H
+	.long   DIRTM_P
+DIRT_DE3:
+	.word   22,12
+	.long   022e424fH
+	.word   -4,-3,03000H
+	.long   DIRTM_P
+DIRT_DE4:
+	.word   26,12
+	.long   022e4567H
+	.word   -8,-5,03000H
+	.long   DIRTM_P
+DIRT_DE5:
+	.word   23,13
+	.long   022e490fH
+	.word   -12,-7,03000H
+	.long   DIRTM_P
+DIRT_DE6:
+	.word   24,11
+	.long   022e4c90H
+	.word   -18,-11,03000H
+	.long   DIRTM_P
+DCHUNK_A1:
+	.word   7,6
+	.long   022e4fa8H
+	.word   3,2,03000H
+	.long   DIRTM_P
+DCHUNK_A2:
+	.word   7,5
+	.long   022e5026H
+	.word   3,2,03000H
+	.long   DIRTM_P
+DCHUNK_A3:
+	.word   6,6
+	.long   022e508fH
+	.word   2,2,03000H
+	.long   DIRTM_P
+DCHUNK_A4:
+	.word   6,7
+	.long   022e50fbH
+	.word   2,3,03000H
+	.long   DIRTM_P
+DCHUNK_A5:
+	.word   7,6
+	.long   022e5179H
+	.word   3,2,03000H
+	.long   DIRTM_P
+DCHUNK_A6:
+	.word   7,5
+	.long   022e51f7H
+	.word   3,2,03000H
+	.long   DIRTM_P
+DCHUNK_A7:
+	.word   6,6
+	.long   022e5260H
+	.word   2,2,03000H
+	.long   DIRTM_P
+DCHUNK_A8:
+	.word   6,7
+	.long   022e52ccH
+	.word   2,3,03000H
+	.long   DIRTM_P
+DCHUNK_A9:
+	.word   5,6
+	.long   022e534aH
+	.word   2,2,03000H
+	.long   DIRTM_P
+DCHUNK_B1:
+	.word   7,6
+	.long   022e53a4H
+	.word   3,2,03000H
+	.long   DIRTM_P
+DCHUNK_B2:
+	.word   6,4
+	.long   022e5422H
+	.word   2,1,03000H
+	.long   DIRTM_P
+DCHUNK_B3:
+	.word   6,3
+	.long   022e546aH
+	.word   2,1,03000H
+	.long   DIRTM_P
+DCHUNK_B4:
+	.word   7,4
+	.long   022e54a0H
+	.word   3,1,03000H
+	.long   DIRTM_P
+DCHUNK_B5:
+	.word   7,6
+	.long   022e4fa8H
+	.word   3,2,03000H
+	.long   DIRTM_P
+DCHUNK_B6:
+	.word   7,6
+	.long   022e54f4H
+	.word   3,2,03000H
+	.long   DIRTM_P
+DCHUNK_B7:
+	.word   6,4
+	.long   022e5572H
+	.word   2,1,03000H
+	.long   DIRTM_P
+DCHUNK_B8:
+	.word   6,3
+	.long   022e55baH
+	.word   2,1,03000H
+	.long   DIRTM_P
+DCHUNK_B9:
+	.word   6,4
+	.long   022e55f0H
+	.word   2,1,03000H
+	.long   DIRTM_P
+DCHUNK_B10:
+	.word   7,7
+	.long   022e5638H
+	.word   3,3,03000H
+	.long   DIRTM_P
+SMKPUFF1:
+	.word   4,3
+	.long   022e56cbH
+	.word   1,1,03000H
+	.long   SMOK_P
+SMKPUFF2:
+	.word   6,5
+	.long   022e56efH
+	.word   3,2,03000H
+	.long   SMOK_P
+SMKPUFF3:
+	.word   12,8
+	.long   022e5749H
+	.word   6,4,03000H
+	.long   SMOK_P
+SMKPUFF4:
+	.word   12,9
+	.long   022e5869H
+	.word   6,5,03000H
+	.long   SMOK_P
+SMKPUFF5:
+	.word   13,9
+	.long   022e59adH
+	.word   6,5,03000H
+	.long   SMOK_P
+SMKPUFF6:
+	.word   14,12
+	.long   022e5b0cH
+	.word   6,6,03000H
+	.long   SMOK_P
+SMKPUFF7:
+	.word   15,15
+	.long   022e5d04H
+	.word   7,7,03000H
+	.long   SMOK_P
+muff1:
+	.word   45,52
+	.long   022e5fa7H
+	.word   22,26,00H
+	.long   CHROME_P
+muff2:
+	.word   45,47
+	.long   022ea8c7H
+	.word   22,23,00H
+	.long   CHROME_P
+muff3:
+	.word   39,43
+	.long   022eeadfH
+	.word   19,21,00H
+	.long   CHROME_P
+muff4:
+	.word   38,45
+	.long   022f1f47H
+	.word   19,22,00H
+	.long   CHROME_P
+muff5:
+	.word   41,48
+	.long   022f54b7H
+	.word   20,24,00H
+	.long   CHROME_P
+muff6:
+	.word   41,49
+	.long   022f9237H
+	.word   20,24,00H
+	.long   CHROME_P
+muff7:
+	.word   43,43
+	.long   022fd0ffH
+	.word   21,21,00H
+	.long   CHROME_P
+muff8:
+	.word   42,45
+	.long   02300ac7H
+	.word   21,22,00H
+	.long   CHROME_P
+muff9:
+	.word   40,44
+	.long   023045d7H
+	.word   20,22,00H
+	.long   CHROME_P
+muff10:
+	.word   41,47
+	.long   02307cd7H
+	.word   20,23,00H
+	.long   CHROME_P
+pist1:
+	.word   43,38
+	.long   0230b90fH
+	.word   21,19,00H
+	.long   CHROME_P
+pist2:
+	.word   33,48
+	.long   0230ec1fH
+	.word   16,24,00H
+	.long   CHROME_P
+pist3:
+	.word   28,45
+	.long   02311d9fH
+	.word   14,22,00H
+	.long   CHROME_P
+pist4:
+	.word   34,35
+	.long   023144ffH
+	.word   17,17,00H
+	.long   CHROME_P
+pist5:
+	.word   31,43
+	.long   02316a2fH
+	.word   15,21,00H
+	.long   CHROME_P
+pist6:
+	.word   25,52
+	.long   023193d7H
+	.word   12,26,00H
+	.long   CHROME_P
+pist7:
+	.word   31,42
+	.long   0231bc77H
+	.word   15,21,00H
+	.long   CHROME_P
+dice1:
+	.word   44,39
+	.long   0231e527H
+	.word   22,19,00H
+	.long   CHROME_P
+dice2:
+	.word   38,36
+	.long   02321ac7H
+	.word   19,18,00H
+	.long   CHROME_P
+dice3:
+	.word   34,37
+	.long   02324587H
+	.word   17,18,00H
+	.long   CHROME_P
+dice4:
+	.word   43,38
+	.long   02326cd7H
+	.word   21,19,00H
+	.long   CHROME_P
+dice5:
+	.word   45,40
+	.long   02329fe7H
+	.word   22,20,00H
+	.long   CHROME_P
+dice6:
+	.word   31,42
+	.long   0232d827H
+	.word   15,21,00H
+	.long   CHROME_P
+dice7:
+	.word   43,40
+	.long   023300d7H
+	.word   21,20,00H
+	.long   CHROME_P
+seatA1:
+	.word   35,59
+	.long   02333697H
+	.word   17,29,00H
+	.long   CHROME_P
+seatA2:
+	.word   38,60
+	.long   0233771fH
+	.word   19,30,00H
+	.long   CHROME_P
+seatA3:
+	.word   36,59
+	.long   0233be5fH
+	.word   18,29,00H
+	.long   CHROME_P
+seatA4:
+	.word   36,57
+	.long   023400bfH
+	.word   18,28,00H
+	.long   CHROME_P
+seatA5:
+	.word   33,55
+	.long   023440dfH
+	.word   16,27,00H
+	.long   CHROME_P
+seatA6:
+	.word   38,56
+	.long   02347997H
+	.word   19,28,00H
+	.long   CHROME_P
+seatA7:
+	.word   41,57
+	.long   0234bc17H
+	.word   20,28,00H
+	.long   CHROME_P
+seatA8:
+	.word   37,63
+	.long   0235051fH
+	.word   18,31,00H
+	.long   CHROME_P
+seatB1:
+	.word   35,51
+	.long   02354df7H
+	.word   17,25,00H
+	.long   CHROME_P
+seatB2:
+	.word   33,40
+	.long   023585bfH
+	.word   16,20,00H
+	.long   CHROME_P
+seatB3:
+	.word   35,37
+	.long   0235aeffH
+	.word   17,18,00H
+	.long   CHROME_P
+seatB4:
+	.word   34,47
+	.long   0235d777H
+	.word   17,23,00H
+	.long   CHROME_P
+seatB5:
+	.word   36,58
+	.long   02360967H
+	.word   18,29,00H
+	.long   CHROME_P
+seatB6:
+	.word   39,47
+	.long   02364aa7H
+	.word   19,23,00H
+	.long   CHROME_P
+seatB7:
+	.word   38,34
+	.long   023683efH
+	.word   19,17,00H
+	.long   CHROME_P
+seatB8:
+	.word   39,40
+	.long   0236ac4fH
+	.word   19,20,00H
+	.long   CHROME_P
+seatB9:
+	.word   30,56
+	.long   0236dd0fH
+	.word   15,28,00H
+	.long   CHROME_P
+carbur1:
+	.word   37,48
+	.long   0237118fH
+	.word   18,24,00H
+	.long   CHROME_P
+carbur2:
+	.word   29,49
+	.long   0237490fH
+	.word   14,24,00H
+	.long   CHROME_P
+carbur3:
+	.word   46,50
+	.long   02377577H
+	.word   23,25,00H
+	.long   CHROME_P
+carbur4:
+	.word   43,48
+	.long   0237bd57H
+	.word   21,24,00H
+	.long   CHROME_P
+carbur5:
+	.word   39,50
+	.long   0237fdd7H
+	.word   19,25,00H
+	.long   CHROME_P
+carbur6:
+	.word   28,51
+	.long   02383ac7H
+	.word   14,25,00H
+	.long   CHROME_P
+carbur7:
+	.word   31,50
+	.long   02386767H
+	.word   15,25,00H
+	.long   CHROME_P
+carbur8:
+	.word   45,48
+	.long   023897d7H
+	.word   22,24,00H
+	.long   CHROME_P
+steer1:
+	.word   34,56
+	.long   0238db57H
+	.word   17,28,00H
+	.long   CHROME_P
+steer2:
+	.word   45,58
+	.long   023916d7H
+	.word   22,29,00H
+	.long   CHROME_P
+steer3:
+	.word   48,60
+	.long   02396867H
+	.word   24,30,00H
+	.long   CHROME_P
+steer4:
+	.word   47,61
+	.long   0239c267H
+	.word   23,30,00H
+	.long   CHROME_P
+steer5:
+	.word   37,61
+	.long   023a1bffH
+	.word   18,30,00H
+	.long   CHROME_P
+steer6:
+	.word   33,63
+	.long   023a6287H
+	.word   16,31,00H
+	.long   CHROME_P
+steer7:
+	.word   38,62
+	.long   023aa37fH
+	.word   19,31,00H
+	.long   CHROME_P
+steer8:
+	.word   48,61
+	.long   023aed1fH
+	.word   24,30,00H
+	.long   CHROME_P
+steer9:
+	.word   46,58
+	.long   023b489fH
+	.word   23,29,00H
+	.long   CHROME_P
+steer10:
+	.word   35,57
+	.long   023b9bffH
+	.word   17,28,00H
+	.long   CHROME_P
+bumperA1:
+	.word   30,67
+	.long   023bda57H
+	.word   15,33,00H
+	.long   CHROME_P
+bumperA2:
+	.word   33,68
+	.long   023c1927H
+	.word   16,34,00H
+	.long   CHROME_P
+bumperA3:
+	.word   25,68
+	.long   023c5f47H
+	.word   12,34,00H
+	.long   CHROME_P
+bumperA4:
+	.word   24,69
+	.long   023c9467H
+	.word   12,34,00H
+	.long   CHROME_P
+bumperA5:
+	.word   30,65
+	.long   023cc827H
+	.word   15,32,00H
+	.long   CHROME_P
+bumperA6:
+	.word   33,65
+	.long   023d0517H
+	.word   16,32,00H
+	.long   CHROME_P
+bumperA7:
+	.word   27,73
+	.long   023d481fH
+	.word   13,36,00H
+	.long   CHROME_P
+bumperA8:
+	.word   21,76
+	.long   023d85b7H
+	.word   10,38,00H
+	.long   CHROME_P
+bumperB1:
+	.word   94,40
+	.long   023db797H
+	.word   47,20,00H
+	.long   CHROME_P
+bumperB2:
+	.word   97,39
+	.long   023e2d17H
+	.word   48,19,00H
+	.long   CHROME_P
+bumperB3:
+	.word   96,45
+	.long   023ea34fH
+	.word   48,22,00H
+	.long   CHROME_P
+bumperB4:
+	.word   99,38
+	.long   023f2a4fH
+	.word   49,19,00H
+	.long   CHROME_P
+bumperB5:
+	.word   96,39
+	.long   023f9fdfH
+	.word   48,19,00H
+	.long   CHROME_P
+bumperB6:
+	.word   94,37
+	.long   024014dfH
+	.word   47,18,00H
+	.long   CHROME_P
+bumperB7:
+	.word   96,45
+	.long   0240818fH
+	.word   48,22,00H
+	.long   CHROME_P
+distrbA1:
+	.word   34,29
+	.long   0241088fH
+	.word   17,14,00H
+	.long   CHROME_P
+distrbA2:
+	.word   36,32
+	.long   0241275fH
+	.word   18,16,00H
+	.long   CHROME_P
+distrbA3:
+	.word   36,31
+	.long   02414b5fH
+	.word   18,15,00H
+	.long   CHROME_P
+distrbA4:
+	.word   30,25
+	.long   02416e3fH
+	.word   15,12,00H
+	.long   CHROME_P
+distrbA5:
+	.word   37,30
+	.long   024185afH
+	.word   18,15,00H
+	.long   CHROME_P
+distrbA6:
+	.word   36,32
+	.long   0241a85fH
+	.word   18,16,00H
+	.long   CHROME_P
+distrbA7:
+	.word   33,29
+	.long   0241cc5fH
+	.word   16,14,00H
+	.long   CHROME_P
+distrbB1:
+	.word   19,26
+	.long   0241ea47H
+	.word   9,13,00H
+	.long   CHROME_P
+distrbB2:
+	.word   24,27
+	.long   0241f9b7H
+	.word   12,13,00H
+	.long   CHROME_P
+distrbB3:
+	.word   29,26
+	.long   02420df7H
+	.word   14,13,00H
+	.long   CHROME_P
+distrbB4:
+	.word   24,25
+	.long   02422587H
+	.word   12,12,00H
+	.long   CHROME_P
+distrbB5:
+	.word   16,27
+	.long   02423847H
+	.word   8,13,00H
+	.long   CHROME_P
+distrbB6:
+	.word   22,26
+	.long   024245c7H
+	.word   11,13,00H
+	.long   CHROME_P
+distrbB7:
+	.word   27,25
+	.long   024257a7H
+	.word   13,12,00H
+	.long   CHROME_P
+distrbB8:
+	.word   28,24
+	.long   02426cbfH
+	.word   14,12,00H
+	.long   CHROME_P
+belt1:
+	.word   49,53
+	.long   024281bfH
+	.word   24,26,00H
+	.long   CHROME_P
+belt2:
+	.word   49,47
+	.long   0242d2e7H
+	.word   24,23,00H
+	.long   CHROME_P
+belt3:
+	.word   54,44
+	.long   02431adfH
+	.word   27,22,00H
+	.long   CHROME_P
+belt4:
+	.word   58,42
+	.long   0243651fH
+	.word   29,21,00H
+	.long   CHROME_P
+belt5:
+	.word   58,41
+	.long   0243b13fH
+	.word   29,20,00H
+	.long   CHROME_P
+belt6:
+	.word   57,40
+	.long   0243fb8fH
+	.word   28,20,00H
+	.long   CHROME_P
+thingA1:
+	.word   34,22
+	.long   024442cfH
+	.word   17,11,00H
+	.long   CHROME_P
+thingA2:
+	.word   37,17
+	.long   02445a2fH
+	.word   18,8,00H
+	.long   CHROME_P
+thingA3:
+	.word   35,27
+	.long   02446dd7H
+	.word   17,13,00H
+	.long   CHROME_P
+thingA4:
+	.word   37,31
+	.long   02448b5fH
+	.word   18,15,00H
+	.long   CHROME_P
+thingA5:
+	.word   43,29
+	.long   0244af37H
+	.word   21,14,00H
+	.long   CHROME_P
+thingA6:
+	.word   50,13
+	.long   0244d62fH
+	.word   25,6,00H
+	.long   CHROME_P
+thingA7:
+	.word   47,22
+	.long   0244ea7fH
+	.word   23,11,00H
+	.long   CHROME_P
+thingA8:
+	.word   43,29
+	.long   02450acfH
+	.word   21,14,00H
+	.long   CHROME_P
+thingB1:
+	.word   30,23
+	.long   024531c7H
+	.word   15,11,00H
+	.long   CHROME_P
+thingB2:
+	.word   28,22
+	.long   02454757H
+	.word   14,11,00H
+	.long   CHROME_P
+thingB3:
+	.word   29,22
+	.long   02455a97H
+	.word   14,11,00H
+	.long   CHROME_P
+thingB4:
+	.word   30,27
+	.long   02456e87H
+	.word   15,13,00H
+	.long   CHROME_P
+thingB5:
+	.word   30,23
+	.long   024587d7H
+	.word   15,11,00H
+	.long   CHROME_P
+thingB6:
+	.word   31,21
+	.long   02459d67H
+	.word   15,10,00H
+	.long   CHROME_P
+thingB7:
+	.word   29,21
+	.long   0245b1bfH
+	.word   14,10,00H
+	.long   CHROME_P
+thingB8:
+	.word   29,27
+	.long   0245c4c7H
+	.word   14,13,00H
+	.long   CHROME_P
+mirror1:
+	.word   39,31
+	.long   0245dd3fH
+	.word   19,15,00H
+	.long   CHROME_P
+mirror2:
+	.word   38,30
+	.long   02460307H
+	.word   19,15,00H
+	.long   CHROME_P
+mirror3:
+	.word   37,32
+	.long   024626a7H
+	.word   18,16,00H
+	.long   CHROME_P
+mirror4:
+	.word   39,33
+	.long   02464ba7H
+	.word   19,16,00H
+	.long   CHROME_P
+mirror5:
+	.word   41,33
+	.long   024673dfH
+	.word   20,16,00H
+	.long   CHROME_P
+mirror6:
+	.word   40,32
+	.long   02469e27H
+	.word   20,16,00H
+	.long   CHROME_P
+mirror7:
+	.word   37,32
+	.long   0246c627H
+	.word   18,16,00H
+	.long   CHROME_P
+mirror8:
+	.word   36,36
+	.long   0246eb27H
+	.word   18,18,00H
+	.long   CHROME_P
+ftpedal1:
+	.word   16,42
+	.long   024713a7H
+	.word   8,21,00H
+	.long   CHROME_P
+ftpedal2:
+	.word   26,39
+	.long   024728a7H
+	.word   13,19,00H
+	.long   CHROME_P
+ftpedal3:
+	.word   25,36
+	.long   02474857H
+	.word   12,18,00H
+	.long   CHROME_P
+ftpedal4:
+	.word   14,36
+	.long   02476477H
+	.word   7,18,00H
+	.long   CHROME_P
+ftpedal5:
+	.word   13,35
+	.long   02477437H
+	.word   6,17,00H
+	.long   CHROME_P
+ftpedal6:
+	.word   25,35
+	.long   0247826fH
+	.word   12,17,00H
+	.long   CHROME_P
+ftpedal7:
+	.word   28,37
+	.long   02479dc7H
+	.word   14,18,00H
+	.long   CHROME_P
+ftpedal8:
+	.word   19,41
+	.long   0247be27H
+	.word   9,20,00H
+	.long   CHROME_P
+sparkA1:
+	.word   31,21
+	.long   0247d67fH
+	.word   15,7,00H
+	.long   CHROME_P
+sparkA2:
+	.word   47,12
+	.long   0247ead7H
+	.word   23,6,00H
+	.long   CHROME_P
+sparkA3:
+	.word   36,20
+	.long   0247fc77H
+	.word   18,10,00H
+	.long   CHROME_P
+sparkA4:
+	.word   13,27
+	.long   024812f7H
+	.word   6,13,00H
+	.long   CHROME_P
+sparkA5:
+	.word   32,22
+	.long   02481defH
+	.word   16,11,00H
+	.long   CHROME_P
+sparkA6:
+	.word   48,12
+	.long   024833efH
+	.word   24,6,00H
+	.long   CHROME_P
+sparkA7:
+	.word   34,18
+	.long   024845efH
+	.word   17,9,00H
+	.long   CHROME_P
+sparkA8:
+	.word   13,24
+	.long   0248590fH
+	.word   6,12,00H
+	.long   CHROME_P
+sparkB1:
+	.word   22,28
+	.long   024862cfH
+	.word   11,14,00H
+	.long   CHROME_P
+sparkB2:
+	.word   14,35
+	.long   0248760fH
+	.word   7,17,00H
+	.long   CHROME_P
+sparkB3:
+	.word   12,37
+	.long   0248855fH
+	.word   6,18,00H
+	.long   CHROME_P
+sparkB4:
+	.word   31,18
+	.long   0248933fH
+	.word   15,9,00H
+	.long   CHROME_P
+sparkB5:
+	.word   30,25
+	.long   0248a4afH
+	.word   15,12,00H
+	.long   CHROME_P
+sparkB6:
+	.word   13,37
+	.long   0248bc1fH
+	.word   6,18,00H
+	.long   CHROME_P
+sparkB7:
+	.word   12,30
+	.long   0248cb27H
+	.word   6,15,00H
+	.long   CHROME_P
+sparkB8:
+	.word   24,12
+	.long   0248d667H
+	.word   12,6,00H
+	.long   CHROME_P
+tireA1:
+	.word   53,40
+	.long   0248df67H
+	.word   26,20,07000H
+	.long   CHROME_P
+tireA2:
+	.word   48,42
+	.long   0249195fH
+	.word   24,21,06000H
+	.long   CHROME_P
+tireA3:
+	.word   45,42
+	.long   0249489fH
+	.word   22,21,00H
+	.long   CHROME_P
+tireA4:
+	.word   51,39
+	.long   024983afH
+	.word   25,19,07000H
+	.long   CHROME_P
+tireA5:
+	.word   58,31
+	.long   0249ba12H
+	.word   29,15,07000H
+	.long   CHROME_P
+tireA6:
+	.word   54,33
+	.long   0249eb3cH
+	.word   27,16,00H
+	.long   CHROME_P
+tireA7:
+	.word   49,39
+	.long   024a22ecH
+	.word   24,19,06000H
+	.long   CHROME_P
+tireA8:
+	.word   50,43
+	.long   024a4fb6H
+	.word   25,21,00H
+	.long   CHROME_P
+tireB1:
+	.word   56,46
+	.long   024a92e6H
+	.word   28,23,00H
+	.long   CHROME_P
+tireB2:
+	.word   53,41
+	.long   024ae366H
+	.word   26,20,06000H
+	.long   CHROME_P
+tireB3:
+	.word   54,31
+	.long   024b1654H
+	.word   27,15,00H
+	.long   CHROME_P
+tireB4:
+	.word   56,18
+	.long   024b4aa4H
+	.word   28,9,00H
+	.long   CHROME_P
+tireB5:
+	.word   54,24
+	.long   024b6a24H
+	.word   27,12,00H
+	.long   CHROME_P
+tireB6:
+	.word   54,33
+	.long   024b92a4H
+	.word   27,16,00H
+	.long   CHROME_P
+wingorn1:
+	.word   33,42
+	.long   024bca54H
+	.word   16,21,00H
+	.long   CHROME_P
+wingorn2:
+	.word   32,42
+	.long   024bf5a4H
+	.word   16,21,00H
+	.long   CHROME_P
+wingorn3:
+	.word   24,44
+	.long   024c1fa4H
+	.word   12,22,00H
+	.long   CHROME_P
+wingorn4:
+	.word   21,46
+	.long   024c40a4H
+	.word   10,23,00H
+	.long   CHROME_P
+wingorn5:
+	.word   29,42
+	.long   024c5ed4H
+	.word   14,21,00H
+	.long   CHROME_P
+wingorn6:
+	.word   28,41
+	.long   024c84e4H
+	.word   14,20,00H
+	.long   CHROME_P
+wingorn7:
+	.word   28,44
+	.long   024ca8c4H
+	.word   14,22,00H
+	.long   CHROME_P
+wingorn8:
+	.word   18,42
+	.long   024ccf44H
+	.word   9,21,00H
+	.long   CHROME_P
+wheel1:
+	.word   54,46
+	.long   024ce6e4H
+	.word   27,23,00H
+	.long   CHROME_P
+wheel2:
+	.word   50,47
+	.long   024d3484H
+	.word   25,23,00H
+	.long   CHROME_P
+wheel3:
+	.word   24,46
+	.long   024d7df4H
+	.word   12,23,00H
+	.long   CHROME_P
+wheel4:
+	.word   48,47
+	.long   024da074H
+	.word   24,23,00H
+	.long   CHROME_P
+wheel5:
+	.word   54,46
+	.long   024de6f4H
+	.word   27,23,00H
+	.long   CHROME_P
+wheel6:
+	.word   47,47
+	.long   024e3494H
+	.word   23,23,00H
+	.long   CHROME_P
+wheel7:
+	.word   50,47
+	.long   024e799cH
+	.word   25,23,00H
+	.long   CHROME_P
+wheel8:
+	.word   52,40
+	.long   024ec30cH
+	.word   26,20,00H
+	.long   CHROME_P
+wheel9:
+	.word   53,30
+	.long   024f040cH
+	.word   26,15,00H
+	.long   CHROME_P
+wheel10:
+	.word   51,21
+	.long   024f35bcH
+	.word   25,10,00H
+	.long   CHROME_P
+wheel11:
+	.word   54,36
+	.long   024f5734H
+	.word   27,18,00H
+	.long   CHROME_P
+wheel12:
+	.word   54,42
+	.long   024f93f4H
+	.word   27,21,00H
+	.long   CHROME_P
+wheel13:
+	.word   52,30
+	.long   024fdad4H
+	.word   26,15,00H
+	.long   CHROME_P
+wheel14:
+	.word   53,37
+	.long   02500b94H
+	.word   26,18,00H
+	.long   CHROME_P
+filter1:
+	.word   48,40
+	.long   025048dcH
+	.word   24,20,00H
+	.long   CHROME_P
+filter2:
+	.word   47,37
+	.long   025084dcH
+	.word   23,18,00H
+	.long   CHROME_P
+filter3:
+	.word   47,31
+	.long   0250bb34H
+	.word   23,15,00H
+	.long   CHROME_P
+filter4:
+	.word   46,21
+	.long   0250e8bcH
+	.word   23,10,00H
+	.long   CHROME_P
+filter5:
+	.word   46,21
+	.long   025106ecH
+	.word   23,10,00H
+	.long   CHROME_P
+filter6:
+	.word   47,36
+	.long   0251251cH
+	.word   23,18,00H
+	.long   CHROME_P
+plate1:
+	.word   42,41
+	.long   025159fcH
+	.word   21,20,00H
+	.long   CHROME_P
+plate2:
+	.word   26,41
+	.long   02518fccH
+	.word   13,20,00H
+	.long   CHROME_P
+plate3:
+	.word   10,42
+	.long   0251b11cH
+	.word   5,21,00H
+	.long   CHROME_P
+plate4:
+	.word   14,41
+	.long   0251be3cH
+	.word   7,20,00H
+	.long   CHROME_P
+plate5:
+	.word   32,41
+	.long   0251d02cH
+	.word   16,20,00H
+	.long   CHROME_P
+plate6:
+	.word   23,40
+	.long   0251f92cH
+	.word   11,20,00H
+	.long   CHROME_P
+plate7:
+	.word   9,40
+	.long   025215ecH
+	.word   4,20,00H
+	.long   CHROME_P
+plate8:
+	.word   16,41
+	.long   0252212cH
+	.word   8,20,00H
+	.long   CHROME_P
+plate9:
+	.word   36,40
+	.long   025235acH
+	.word   18,20,00H
+	.long   CHROME_P
+hornorn1:
+	.word   12,45
+	.long   025262acH
+	.word   6,22,00H
+	.long   CHROME_P
+hornorn2:
+	.word   27,42
+	.long   0252738cH
+	.word   13,21,00H
+	.long   CHROME_P
+hornorn3:
+	.word   43,33
+	.long   025296fcH
+	.word   21,16,00H
+	.long   CHROME_P
+hornorn4:
+	.word   39,24
+	.long   0252c354H
+	.word   19,12,00H
+	.long   CHROME_P
+hornorn5:
+	.word   14,25
+	.long   0252e094H
+	.word   7,12,00H
+	.long   CHROME_P
+hornorn6:
+	.word   31,28
+	.long   0252eb84H
+	.word   15,14,00H
+	.long   CHROME_P
+hornorn7:
+	.word   46,33
+	.long   025306a4H
+	.word   23,16,00H
+	.long   CHROME_P
+hornorn8:
+	.word   40,39
+	.long   02533614H
+	.word   20,19,00H
+	.long   CHROME_P
+radiate1:
+	.word   53,57
+	.long   025366d4H
+	.word   26,28,00H
+	.long   CHROME_P
+radiate2:
+	.word   62,30
+	.long   0253c53cH
+	.word   31,15,00H
+	.long   CHROME_P
+radiate3:
+	.word   72,26
+	.long   0253ff5cH
+	.word   36,13,00H
+	.long   CHROME_P
+radiate4:
+	.word   65,48
+	.long   025439dcH
+	.word   32,24,00H
+	.long   CHROME_P
+radiate5:
+	.word   48,53
+	.long   02549b5cH
+	.word   24,26,00H
+	.long   CHROME_P
+radiate6:
+	.word   59,37
+	.long   0254eadcH
+	.word   29,18,00H
+	.long   CHROME_P
+radiate7:
+	.word   69,28
+	.long   02552f14H
+	.word   34,14,00H
+	.long   CHROME_P
+radiate8:
+	.word   61,48
+	.long   02556b74H
+	.word   30,24,00H
+	.long   CHROME_P
+gascan1:
+	.word   31,27
+	.long   0255c6f4H
+	.word   15,13,00H
+	.long   CHROME_P
+gascan2:
+	.word   27,23
+	.long   0255e11cH
+	.word   13,11,00H
+	.long   CHROME_P
+gascan3:
+	.word   26,19
+	.long   0255f484H
+	.word   13,9,00H
+	.long   CHROME_P
+gascan4:
+	.word   29,26
+	.long   025603f4H
+	.word   14,13,00H
+	.long   CHROME_P
+gascan5:
+	.word   32,30
+	.long   02561b84H
+	.word   16,15,00H
+	.long   CHROME_P
+gascan6:
+	.word   33,22
+	.long   02563984H
+	.word   16,11,00H
+	.long   CHROME_P
+gascan7:
+	.word   30,21
+	.long   02565034H
+	.word   15,10,00H
+	.long   CHROME_P
+gascan8:
+	.word   26,27
+	.long   025663e4H
+	.word   13,13,00H
+	.long   CHROME_P
+gascan9:
+	.word   24,26
+	.long   025679d4H
+	.word   12,13,00H
+	.long   CHROME_P
+IMG2X:
+	.word   11,11
+	.long   02568d54H
+	.word   5,5,00H
+	.long   JOEMISC_P
+	.TEXT
+

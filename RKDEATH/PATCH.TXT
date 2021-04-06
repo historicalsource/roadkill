@@ -1,0 +1,3 @@
+
+P DRI          262 FF822170         MOVW    *A3(PD_TURBOS),A14
+	MOVE *A5(>30),A14,0

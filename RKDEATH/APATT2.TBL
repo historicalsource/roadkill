@@ -1,0 +1,146 @@
+	.DATA
+SUN
+	.word	108,75
+	.long	02000000H
+	.word	01A80H
+	.word	0,0
+	.long	SUNPAL
+LAWN
+	.word	400,82
+	.long	02001270H
+	.word	02000H
+	.word	0,0
+	.long	LAWNPAL
+LAWN2
+	.word	500,82
+	.long	020112B0H
+	.word	02000H
+	.word	0,0
+	.long	LAWNPAL
+BILROAD64
+	.word	200,160
+	.long	02025300H
+	.word	06000H
+	.word	0,0
+	.long	BILRD641
+TOY2
+	.word	146,117
+	.long	02054100H
+	.word	00H
+	.word	52,-17
+	.long	TOYPALd
+TOY3
+	.word	139,116
+	.long	020756D0H
+	.word	00H
+	.word	53,-17
+	.long	TOYPALd
+TOY4
+	.word	128,116
+	.long	02094EB0H
+	.word	00H
+	.word	52,-17
+	.long	TOYPALd
+TOY5
+	.word	118,115
+	.long	020B1EB0H
+	.word	00H
+	.word	51,-17
+	.long	TOYPALd
+TOY6
+	.word	106,113
+	.long	020CC6C0H
+	.word	00H
+	.word	46,-17
+	.long	TOYPALd
+TOY7
+	.word	96,111
+	.long	020E3D10H
+	.word	00H
+	.word	43,-17
+	.long	TOYPALd
+TOY8
+	.word	90,113
+	.long	020F8A10H
+	.word	00H
+	.word	42,-17
+	.long	TOYPALd
+BUSH1
+	.word	119,78
+	.long	0210C7E0H
+	.word	04000H
+	.word	60,65
+	.long	DKGREENN2
+ALOE1
+	.word	78,55
+	.long	021158E8H
+	.word	06000H
+	.word	39,49
+	.long	DKGREEN2
+PALM1base
+	.word	57,222
+	.long	0211BD74H
+	.word	04000H
+	.word	30,216
+	.long	DKTANN2
+PALM1top
+	.word	179,88
+	.long	0212832CH
+	.word	04000H
+	.word	92,258
+	.long	DKGREENN2
+PALM2base
+	.word	29,164
+	.long	0213794CH
+	.word	06000H
+	.word	16,158
+	.long	DKGRAY2
+PALM2top
+	.word	128,103
+	.long	0213E8C4H
+	.word	06000H
+	.word	71,216
+	.long	DKGREEN2
+NUROAD100
+	.word	200,188
+	.long	02151DC4H
+	.word	06000H
+	.word	0,0
+	.long	nuroad
+NUROAD50
+	.word	100,188
+	.long	02188F04H
+	.word	06000H
+	.word	0,0
+	.long	nuroad
+NUROAD25
+	.word	50,188
+	.long	021A47A4H
+	.word	06000H
+	.word	0,0
+	.long	nuroad
+MIDWAYLOGO
+	.word	197,49
+	.long	021E744DH
+	.word	05000H
+	.word	0,0
+	.long	midway2
+JURASSIC
+	.word	193,43
+	.long	021F30D6H
+	.word	06000H
+	.word	88,-9
+	.long	j1
+DINO
+	.word	144,90
+	.long	021FF358H
+	.word	06000H
+	.word	67,-52
+	.long	j2
+PARK
+	.word	121,28
+	.long	02212318H
+	.word	06000H
+	.word	53,-142
+	.long	j3
+	.TEXT

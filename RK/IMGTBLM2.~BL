@@ -1,0 +1,1549 @@
+	.DATA
+MSL1:
+	.word   64,8
+	.long   02000000H
+	.word   15,4,07000H
+	.long   MISL
+MSL2:
+	.word   58,8
+	.long   02000e00H
+	.word   15,4,07000H
+	.long   MISL
+MSL3:
+	.word   55,8
+	.long   02001ab0H
+	.word   15,4,07000H
+	.long   MISL
+MINE1:
+	.word   6,10
+	.long   020026b8H
+	.word   3,6,05000H
+	.long   MINE_P
+MINE2:
+	.word   10,10
+	.long   020027e4H
+	.word   5,6,05000H
+	.long   MINE_P
+MINE3:
+	.word   12,11
+	.long   020029d8H
+	.word   6,6,05000H
+	.long   MINE_P
+MINE4:
+	.word   14,12
+	.long   02002c6cH
+	.word   7,6,05000H
+	.long   MINE_P
+MINE5:
+	.word   16,12
+	.long   02002fb4H
+	.word   8,6,05000H
+	.long   MINE_P
+MINE6:
+	.word   18,12
+	.long   02003374H
+	.word   9,6,05000H
+	.long   MINE_P
+MINE7:
+	.word   20,13
+	.long   020037acH
+	.word   10,6,05000H
+	.long   MINE_P
+MINE8:
+	.word   22,13
+	.long   02003cc0H
+	.word   11,6,05000H
+	.long   MINE_P
+BFLIPa_1:
+	.word   17,35
+	.long   02004256H
+	.word   8,17,00H
+	.long   BARREL_P
+BFLIPa_2:
+	.word   26,35
+	.long   020054eeH
+	.word   12,17,00H
+	.long   BARREL_P
+BFLIPa_3:
+	.word   34,26
+	.long   0200715eH
+	.word   16,12,00H
+	.long   BARREL_P
+BFLIPa_4:
+	.word   31,17
+	.long   02008cfeH
+	.word   15,8,00H
+	.long   BARREL_P
+BFLIPa_5:
+	.word   33,29
+	.long   02009d76H
+	.word   16,14,00H
+	.long   BARREL_P
+BFLIPa_6:
+	.word   25,35
+	.long   0200bb5eH
+	.word   12,17,00H
+	.long   BARREL_P
+BFLIPa_7:
+	.word   16,34
+	.long   0200d6b6H
+	.word   7,16,00H
+	.long   BARREL_P
+BFLIPa_8:
+	.word   28,35
+	.long   0200e7b6H
+	.word   13,17,00H
+	.long   BARREL_P
+BFLIPa_9:
+	.word   33,29
+	.long   02010656H
+	.word   16,14,00H
+	.long   BARREL_P
+BFLIPa_10:
+	.word   32,23
+	.long   0201243eH
+	.word   17,11,00H
+	.long   BARREL_P
+BFLIPa_11:
+	.word   30,17
+	.long   02013b3eH
+	.word   14,8,00H
+	.long   BARREL_P
+BFLIPa_12:
+	.word   32,32
+	.long   02014b2eH
+	.word   15,15,00H
+	.long   BARREL_P
+BFLIPa_13:
+	.word   27,34
+	.long   02016b2eH
+	.word   13,16,00H
+	.long   BARREL_P
+BFLIPb_9:
+	.word   23,32
+	.long   020187deH
+	.word   11,15,00H
+	.long   BARREL_P
+BFLIPb_10:
+	.word   29,29
+	.long   02019edeH
+	.word   14,14,00H
+	.long   BARREL_P
+BFLIPb_11:
+	.word   28,23
+	.long   0201b926H
+	.word   13,11,00H
+	.long   BARREL_P
+BFLIPb_12:
+	.word   29,19
+	.long   0201cd46H
+	.word   14,9,00H
+	.long   BARREL_P
+BFLIPb_13:
+	.word   29,17
+	.long   0201de7eH
+	.word   14,8,00H
+	.long   BARREL_P
+BFLIPb_14:
+	.word   25,27
+	.long   0201ede6H
+	.word   12,13,00H
+	.long   BARREL_P
+BFLIPb_15:
+	.word   19,29
+	.long   020202feH
+	.word   9,14,00H
+	.long   BARREL_P
+BFLIPb_1:
+	.word   23,31
+	.long   02021436H
+	.word   11,15,00H
+	.long   BARREL_P
+BFLIPb_2:
+	.word   28,28
+	.long   02022a7eH
+	.word   13,13,00H
+	.long   BARREL_P
+BFLIPb_3:
+	.word   29,23
+	.long   020242feH
+	.word   14,11,00H
+	.long   BARREL_P
+BFLIPb_4:
+	.word   27,18
+	.long   020257d6H
+	.word   13,8,00H
+	.long   BARREL_P
+BFLIPb_5:
+	.word   30,17
+	.long   02026706H
+	.word   14,8,00H
+	.long   BARREL_P
+BFLIPb_6:
+	.word   29,24
+	.long   020276f6H
+	.word   14,11,00H
+	.long   BARREL_P
+BFLIPb_7:
+	.word   20,30
+	.long   02028cb6H
+	.word   9,14,00H
+	.long   BARREL_P
+BFLIPb_8:
+	.word   13,30
+	.long   02029f76H
+	.word   6,14,00H
+	.long   BARREL_P
+BFLIPc_1:
+	.word   14,29
+	.long   0202aba6H
+	.word   6,14,00H
+	.long   BARREL_P
+BFLIPc_2:
+	.word   14,30
+	.long   0202b856H
+	.word   6,14,00H
+	.long   BARREL_P
+BFLIPc_3:
+	.word   14,29
+	.long   0202c576H
+	.word   6,14,00H
+	.long   BARREL_P
+BFLIPc_4:
+	.word   13,23
+	.long   0202d226H
+	.word   6,11,00H
+	.long   BARREL_P
+BFLIPc_5:
+	.word   13,19
+	.long   0202db7eH
+	.word   6,9,00H
+	.long   BARREL_P
+BFLIPc_6:
+	.word   14,14
+	.long   0202e336H
+	.word   6,6,00H
+	.long   BARREL_P
+BFLIPc_7:
+	.word   14,20
+	.long   0202e956H
+	.word   6,9,00H
+	.long   BARREL_P
+BFLIPc_8:
+	.word   14,25
+	.long   0202f216H
+	.word   6,12,00H
+	.long   BARREL_P
+BFLIPc_9:
+	.word   15,28
+	.long   0202fd06H
+	.word   7,13,00H
+	.long   BARREL_P
+BROLLa_1:
+	.word   26,13
+	.long   02030a26H
+	.word   12,6,00H
+	.long   BARREL_P
+BROLLa_10:
+	.word   29,15
+	.long   020314b6H
+	.word   14,7,00H
+	.long   BARREL_P
+BROLLa_11:
+	.word   29,15
+	.long   0203224eH
+	.word   14,7,00H
+	.long   BARREL_P
+BROLLa_12:
+	.word   30,16
+	.long   02032fe6H
+	.word   14,7,00H
+	.long   BARREL_P
+BROLLa_2:
+	.word   27,14
+	.long   02033ee6H
+	.word   13,6,00H
+	.long   BARREL_P
+BROLLa_3:
+	.word   27,14
+	.long   02034ab6H
+	.word   13,6,00H
+	.long   BARREL_P
+BROLLa_4:
+	.word   28,14
+	.long   02035686H
+	.word   13,6,00H
+	.long   BARREL_P
+BROLLa_5:
+	.word   28,15
+	.long   020362c6H
+	.word   13,7,00H
+	.long   BARREL_P
+BROLLa_6:
+	.word   29,15
+	.long   02036fe6H
+	.word   14,7,00H
+	.long   BARREL_P
+BROLLa_7:
+	.word   26,14
+	.long   02037d7eH
+	.word   12,6,00H
+	.long   BARREL_P
+BROLLa_8:
+	.word   27,15
+	.long   020388deH
+	.word   13,7,00H
+	.long   BARREL_P
+BROLLa_9:
+	.word   28,14
+	.long   02039586H
+	.word   13,6,00H
+	.long   BARREL_P
+BROLLb_1:
+	.word   28,23
+	.long   0203a1c6H
+	.word   13,11,00H
+	.long   BARREL_P
+BROLLb_2:
+	.word   28,24
+	.long   0203b5e6H
+	.word   13,11,00H
+	.long   BARREL_P
+BROLLb_3:
+	.word   29,24
+	.long   0203cae6H
+	.word   14,11,00H
+	.long   BARREL_P
+BROLLb_4:
+	.word   29,25
+	.long   0203e0a6H
+	.word   14,12,00H
+	.long   BARREL_P
+BROLLb_5:
+	.word   30,25
+	.long   0203f74eH
+	.word   14,12,00H
+	.long   BARREL_P
+BROLLb_6:
+	.word   30,26
+	.long   02040ebeH
+	.word   14,12,00H
+	.long   BARREL_P
+BROLLb_7:
+	.word   28,25
+	.long   0204271eH
+	.word   13,12,00H
+	.long   BARREL_P
+BROLLb_8:
+	.word   29,25
+	.long   02043cfeH
+	.word   14,12,00H
+	.long   BARREL_P
+BROLLb_9:
+	.word   30,27
+	.long   020453a6H
+	.word   14,13,00H
+	.long   BARREL_P
+ICONS:
+	.word   69,69
+	.long   02046cf6H
+	.word   0,0,00H
+	.long   ICONR_P
+MONEY1K:
+	.word   26,10
+	.long   020501beH
+	.word   12,9,00H
+	.long   ICONR_P
+MONEY5K:
+	.word   28,10
+	.long   020509deH
+	.word   13,9,00H
+	.long   ICONR_P
+MONEY10K:
+	.word   32,10
+	.long   0205129eH
+	.word   15,9,00H
+	.long   ICONR_P
+MONEY20K:
+	.word   35,10
+	.long   02051c9eH
+	.word   17,9,00H
+	.long   ICONR_P
+MONEY50K:
+	.word   35,10
+	.long   0205278eH
+	.word   17,9,00H
+	.long   ICONR_P
+MONEY75K:
+	.word   35,10
+	.long   0205327eH
+	.word   17,9,00H
+	.long   ICONR_P
+MONEY100K:
+	.word   39,10
+	.long   02053d6eH
+	.word   19,9,00H
+	.long   ICONR_P
+MONEY150K:
+	.word   39,10
+	.long   0205499eH
+	.word   19,9,00H
+	.long   ICONR_P
+MISSILE_1:
+	.word   26,11
+	.long   020555ceH
+	.word   12,10,00H
+	.long   ICONR_P
+MISSILE_2:
+	.word   21,8
+	.long   02055ebeH
+	.word   10,7,00H
+	.long   ICONR_P
+MISSILE_3:
+	.word   16,7
+	.long   020563feH
+	.word   7,6,00H
+	.long   ICONR_P
+HEALTH_1:
+	.word   17,17
+	.long   0205677eH
+	.word   8,16,04000H
+	.long   ICONR_P
+HEALTH_2:
+	.word   12,13
+	.long   02056c02H
+	.word   5,12,00H
+	.long   ICONR_P
+HEALTH_3:
+	.word   9,9
+	.long   020570e2H
+	.word   4,8,04000H
+	.long   ICONR_P
+SMART_1:
+	.word   25,11
+	.long   02057226H
+	.word   12,10,00H
+	.long   ICONR_P
+SMART_2:
+	.word   22,9
+	.long   02057abeH
+	.word   10,8,00H
+	.long   ICONR_P
+SMART_3:
+	.word   15,6
+	.long   020580eeH
+	.word   7,5,00H
+	.long   ICONR_P
+MONEYBAG_1:
+	.word   19,19
+	.long   020583beH
+	.word   9,18,00H
+	.long   ICONR_P
+MONEYBAG_2:
+	.word   15,15
+	.long   02058f06H
+	.word   7,14,00H
+	.long   ICONR_P
+MONEYBAG_3:
+	.word   11,11
+	.long   0205960eH
+	.word   0,0,00H
+	.long   ICONR_P
+MISL01:
+	.word   13,14
+	.long   020599d6H
+	.word   6,7,06000H
+	.long   MISLR_P
+MISL02:
+	.word   13,17
+	.long   02059e1aH
+	.word   5,7,06000H
+	.long   MISLG_P
+MISL03:
+	.word   13,16
+	.long   0205a348H
+	.word   4,7,06000H
+	.long   MISLB_P
+MISL04:
+	.word   15,15
+	.long   0205a828H
+	.word   5,7,06000H
+	.long   MISLY_P
+MISL05:
+	.word   18,15
+	.long   0205ad6eH
+	.word   6,6,06000H
+	.long   MISLN_P
+MISL06:
+	.word   19,15
+	.long   0205b3c2H
+	.word   7,6,06000H
+	.long   MISLB_P
+MISL07:
+	.word   21,14
+	.long   0205ba70H
+	.word   8,6,06000H
+	.long   MISLB_P
+MISL08:
+	.word   22,14
+	.long   0205c154H
+	.word   9,6,06000H
+	.long   MISLB_P
+MISL09:
+	.word   24,12
+	.long   0205c88cH
+	.word   10,5,06000H
+	.long   MISLB_P
+MISL10:
+	.word   25,12
+	.long   0205cf4cH
+	.word   11,5,06000H
+	.long   MISLB_P
+MISL11:
+	.word   27,12
+	.long   0205d654H
+	.word   12,5,06000H
+	.long   MISLB_P
+MISL12:
+	.word   28,11
+	.long   0205ddecH
+	.word   13,5,06000H
+	.long   MISLB_P
+MISL13:
+	.word   29,10
+	.long   0205e524H
+	.word   14,5,06000H
+	.long   MISLB_P
+MISL14:
+	.word   29,10
+	.long   0205ebf0H
+	.word   14,5,06000H
+	.long   MISLB_P
+MISL15:
+	.word   29,8
+	.long   0205f2bcH
+	.word   14,4,06000H
+	.long   MISLB_P
+MISL16:
+	.word   30,9
+	.long   0205f82cH
+	.word   15,5,06000H
+	.long   MISLB_P
+MISL17:
+	.word   30,8
+	.long   0205fe80H
+	.word   14,5,06000H
+	.long   MISLB_P
+MISL18:
+	.word   31,9
+	.long   02060420H
+	.word   15,6,06000H
+	.long   MISLB_P
+MISL19:
+	.word   31,8
+	.long   02060aaaH
+	.word   15,6,06000H
+	.long   MISLB_P
+MISL20:
+	.word   30,10
+	.long   0206107aH
+	.word   14,7,06000H
+	.long   MISLB_P
+MISL21:
+	.word   30,10
+	.long   02061782H
+	.word   14,7,06000H
+	.long   MISLB_P
+MISL22:
+	.word   29,11
+	.long   02061e8aH
+	.word   13,8,06000H
+	.long   MISLB_P
+MISL23:
+	.word   28,11
+	.long   02062604H
+	.word   13,8,06000H
+	.long   MISLB_P
+MISL24:
+	.word   27,12
+	.long   02062d3cH
+	.word   12,8,06000H
+	.long   MISLB_P
+MISL25:
+	.word   25,13
+	.long   020634d4H
+	.word   11,9,06000H
+	.long   MISLB_P
+MISL26:
+	.word   24,14
+	.long   02063c72H
+	.word   10,9,06000H
+	.long   MISLB_P
+MISL27:
+	.word   21,14
+	.long   02064452H
+	.word   9,9,06000H
+	.long   MISLB_P
+MISL28:
+	.word   19,14
+	.long   02064b36H
+	.word   7,9,06000H
+	.long   MISLB_P
+MISL29:
+	.word   17,15
+	.long   02065172H
+	.word   6,9,06000H
+	.long   MISLB_P
+MISL30:
+	.word   14,16
+	.long   0206576cH
+	.word   5,10,06000H
+	.long   MISLB_P
+MISL31:
+	.word   12,16
+	.long   02065cacH
+	.word   5,10,06000H
+	.long   MISLB_P
+MISL32:
+	.word   10,14
+	.long   0206612cH
+	.word   4,7,06000H
+	.long   MISLB_P
+MISL33:
+	.word   11,13
+	.long   02066474H
+	.word   5,7,06000H
+	.long   MISLB_P
+MISLR_1:
+	.word   10,27
+	.long   020667ceH
+	.word   4,13,00H
+	.long   MISR_P
+	.word   0,0
+MISLG_2:
+	.word   10,27
+	.long   0206703eH
+	.word   4,13,00H
+	.long   MISG_P
+	.word   2,15
+MISLB_3:
+	.word   15,26
+	.long   020678aeH
+	.word   7,12,00H
+	.long   MISB_P
+	.word   0,0
+MISLN_4:
+	.word   18,26
+	.long   020684deH
+	.word   8,12,00H
+	.long   MISN_P
+	.word   0,0
+MISLD_5:
+	.word   22,26
+	.long   0206937eH
+	.word   10,12,00H
+	.long   MISD_P
+	.word   2,17
+MISL_6:
+	.word   27,25
+	.long   0206a55eH
+	.word   13,12,00H
+	.long   MISB_P
+	.word   0,0
+MISL_7:
+	.word   30,24
+	.long   0206ba76H
+	.word   14,11,00H
+	.long   MISB_P
+	.word   1,19
+MISL_8:
+	.word   35,23
+	.long   0206d0f6H
+	.word   17,11,00H
+	.long   MISB_P
+	.word   0,0
+MISL_9:
+	.word   36,22
+	.long   0206ea1eH
+	.word   17,10,00H
+	.long   MISB_P
+	.word   2,22
+MISL_10:
+	.word   43,20
+	.long   020702deH
+	.word   21,9,00H
+	.long   MISB_P
+	.word   0,0
+MISL_11:
+	.word   43,18
+	.long   02071dbeH
+	.word   21,8,00H
+	.long   MISB_P
+	.word   0,0
+MISL_12:
+	.word   45,16
+	.long   020735eeH
+	.word   22,7,00H
+	.long   MISB_P
+	.word   6,22
+MISL_13:
+	.word   47,15
+	.long   02074c6eH
+	.word   23,7,00H
+	.long   MISB_P
+	.word   0,0
+MISL_14:
+	.word   47,14
+	.long   02076276H
+	.word   23,6,00H
+	.long   MISB_P
+	.word   0,0
+MISL_15:
+	.word   49,14
+	.long   02077706H
+	.word   24,6,00H
+	.long   MISB_P
+	.word   0,0
+MISL_16:
+	.word   49,14
+	.long   02078c76H
+	.word   24,6,00H
+	.long   MISB_P
+	.word   0,0
+MISL_17:
+	.word   50,14
+	.long   0207a1e6H
+	.word   24,6,00H
+	.long   MISB_P
+	.word   0,0
+MISL_18:
+	.word   50,13
+	.long   0207b7c6H
+	.word   24,6,00H
+	.long   MISB_P
+	.word   14,26
+MISL_19:
+	.word   50,14
+	.long   0207cc16H
+	.word   24,6,00H
+	.long   MISB_P
+	.word   15,29
+MISL_20:
+	.word   50,14
+	.long   0207e1f6H
+	.word   24,6,00H
+	.long   MISB_P
+	.word   0,0
+MISL_21:
+	.word   49,16
+	.long   0207f7d6H
+	.word   24,7,00H
+	.long   MISB_P
+	.word   0,0
+MISL_22:
+	.word   48,17
+	.long   02081056H
+	.word   23,8,00H
+	.long   MISB_P
+	.word   0,0
+MISL_23:
+	.word   45,19
+	.long   020829d6H
+	.word   22,9,00H
+	.long   MISB_P
+	.word   0,0
+MISL_24:
+	.word   43,21
+	.long   0208448eH
+	.word   21,10,00H
+	.long   MISB_P
+	.word   0,0
+MISL_25:
+	.word   41,22
+	.long   020860c6H
+	.word   20,10,00H
+	.long   MISB_P
+	.word   0,0
+MISL_26:
+	.word   38,22
+	.long   02087cf6H
+	.word   18,10,00H
+	.long   MISB_P
+	.word   0,0
+MISL_27:
+	.word   35,24
+	.long   02089716H
+	.word   17,11,00H
+	.long   MISB_P
+	.word   0,0
+MISL_28:
+	.word   32,25
+	.long   0208b156H
+	.word   15,12,00H
+	.long   MISB_P
+	.word   0,0
+MISL_29:
+	.word   30,28
+	.long   0208ca56H
+	.word   14,13,00H
+	.long   MISB_P
+	.word   0,0
+MISL_30:
+	.word   22,28
+	.long   0208e496H
+	.word   10,13,00H
+	.long   MISB_P
+	.word   0,0
+MISL_31:
+	.word   15,29
+	.long   0208f7d6H
+	.word   7,14,00H
+	.long   MISB_P
+	.word   0,0
+MISL_32:
+	.word   13,30
+	.long   0209056eH
+	.word   6,14,00H
+	.long   MISB_P
+	.word   0,0
+MISL_33:
+	.word   9,31
+	.long   0209119eH
+	.word   4,15,00H
+	.long   MISB_P
+	.word   0,0
+MISL_8_34:
+	.word   24,18
+	.long   02091a56H
+	.word   0,0,00H
+	.long   MISB_P
+	.word   3,30
+MISL_9_35:
+	.word   9,19
+	.long   020927d6H
+	.word   0,0,00H
+	.long   MISB_P
+	.word   3,29
+DEFMIS_1:
+	.word   11,5
+	.long   02092d2eH
+	.word   5,2,01000H
+	.long   RING_P
+DEFMIS_2:
+	.word   19,7
+	.long   02092d65H
+	.word   9,3,01000H
+	.long   RING_P
+DEFMIS_3:
+	.word   29,11
+	.long   02092deaH
+	.word   14,5,01000H
+	.long   RING_P
+DEFMIS_4:
+	.word   51,19
+	.long   02092f29H
+	.word   25,9,01000H
+	.long   RING_P
+DEFMIS_5:
+	.word   75,29
+	.long   020932f2H
+	.word   37,14,01000H
+	.long   RING_P
+DEFMIS_1A:
+	.word   11,5
+	.long   02093b71H
+	.word   5,2,01000H
+	.long   RING_P
+DEFMIS_2A:
+	.word   19,7
+	.long   02093ba8H
+	.word   9,3,01000H
+	.long   RING_P
+DEFMIS_3A:
+	.word   29,11
+	.long   02093c2dH
+	.word   14,5,01000H
+	.long   RING_P
+DEFMIS_4A:
+	.word   51,19
+	.long   02093d6cH
+	.word   25,9,01000H
+	.long   RING_P
+DEFMIS_5A:
+	.word   75,29
+	.long   02094135H
+	.word   37,14,01000H
+	.long   RING_P
+MINE:
+	.word   16,12
+	.long   020949b4H
+	.word   7,5,05000H
+	.long   MINE_P
+ARROW:
+	.word   8,8
+	.long   02094d74H
+	.word   7,7,00H
+	.long   JOEMISC_P
+BOX:
+	.word   11,11
+	.long   02094f74H
+	.word   5,5,00H
+	.long   JOEMISC_P
+FLAG1:
+	.word   23,46
+	.long   0209533cH
+	.word   0,45,07000H
+	.long   FLAG_P
+FLAG2:
+	.word   22,46
+	.long   0209702aH
+	.word   0,45,07000H
+	.long   FLAG_P
+FLAG3:
+	.word   22,46
+	.long   02098bd6H
+	.word   0,45,07000H
+	.long   FLAG_P
+FLAG4:
+	.word   22,46
+	.long   0209a782H
+	.word   0,45,07000H
+	.long   FLAG_P
+FLAG5:
+	.word   21,46
+	.long   0209c32eH
+	.word   0,45,07000H
+	.long   FLAG_P
+FLAG6:
+	.word   22,46
+	.long   0209dd98H
+	.word   0,45,07000H
+	.long   FLAG_P
+FLAG7:
+	.word   22,46
+	.long   0209f944H
+	.word   0,45,07000H
+	.long   FLAG_P
+FLAG8:
+	.word   21,46
+	.long   020a14f0H
+	.word   0,45,07000H
+	.long   FLAG_P
+cone1:
+	.word   8,10
+	.long   020a2f5aH
+	.word   4,7,05000H
+	.long   CONE_P
+cone2:
+	.word   7,8
+	.long   020a30eaH
+	.word   3,5,06000H
+	.long   CONE_P
+cone3:
+	.word   7,7
+	.long   020a323aH
+	.word   3,3,06000H
+	.long   CONE_P
+cone4:
+	.word   7,4
+	.long   020a3360H
+	.word   3,1,06000H
+	.long   CONE_P
+cone5:
+	.word   9,6
+	.long   020a3408H
+	.word   4,3,06000H
+	.long   CONE_P
+cone6:
+	.word   9,8
+	.long   020a354cH
+	.word   4,3,06000H
+	.long   CONE_P
+cone7:
+	.word   4,8
+	.long   020a36fcH
+	.word   1,2,06000H
+	.long   CONE_P
+cone8:
+	.word   7,7
+	.long   020a37bcH
+	.word   3,2,05000H
+	.long   CONE_P
+cone9:
+	.word   6,6
+	.long   020a38b1H
+	.word   3,2,05000H
+	.long   CONE_P
+cone10:
+	.word   7,4
+	.long   020a3965H
+	.word   3,2,05000H
+	.long   CONE_P
+cone11:
+	.word   7,7
+	.long   020a39f1H
+	.word   3,4,05000H
+	.long   CONE_P
+SPARK1:
+	.word   7,9
+	.long   020a3ae6H
+	.word   3,5,04000H
+	.long   SPRK_P
+SPARK2:
+	.word   17,12
+	.long   020a3be2H
+	.word   8,6,04000H
+	.long   SPRK_P
+SPARK3:
+	.word   23,17
+	.long   020a3f12H
+	.word   12,7,04000H
+	.long   SPRK_P
+SPARK4:
+	.word   28,20
+	.long   020a452eH
+	.word   14,9,04000H
+	.long   SPRK_P
+XPL1:
+	.word   8,9
+	.long   020a4deeH
+	.word   3,4,04000H
+	.long   SPRK_P
+XPL2:
+	.word   7,7
+	.long   020a4f0eH
+	.word   4,3,04000H
+	.long   SPRK_P
+XPL3:
+	.word   9,11
+	.long   020a4fd2H
+	.word   4,5,04000H
+	.long   SPRK_P
+XPL4:
+	.word   9,10
+	.long   020a515eH
+	.word   4,4,04000H
+	.long   SPRK_P
+SMOKE1:
+	.word   5,5
+	.long   020a52c6H
+	.word   2,2,04000H
+	.long   SMK_P
+SMOKE2:
+	.word   8,10
+	.long   020a532aH
+	.word   4,5,04000H
+	.long   SMK_P
+SMOKE3:
+	.word   14,14
+	.long   020a546aH
+	.word   7,7,04000H
+	.long   SMK_P
+FIR_1_1:
+	.word   10,24
+	.long   020a577aH
+	.word   0,0,00H
+	.long   FIRE_p
+FIR_1_2:
+	.word   10,25
+	.long   020a5efaH
+	.word   0,0,00H
+	.long   FIRE_p
+FIR_1_3:
+	.word   10,30
+	.long   020a66caH
+	.word   0,0,00H
+	.long   FIRE_p
+FIR_1_4:
+	.word   8,32
+	.long   020a702aH
+	.word   0,0,00H
+	.long   FIRE_p
+FIR_1_5:
+	.word   8,21
+	.long   020a782aH
+	.word   0,0,00H
+	.long   FIRE_p
+FIR_2_1:
+	.word   20,20
+	.long   020a7d6aH
+	.word   0,0,00H
+	.long   FIRE_p
+FIR_2_2:
+	.word   20,25
+	.long   020a89eaH
+	.word   0,0,00H
+	.long   FIRE_p
+FIR_2_3:
+	.word   17,26
+	.long   020a998aH
+	.word   0,0,00H
+	.long   FIRE_p
+FIR_2_4:
+	.word   22,29
+	.long   020aa75aH
+	.word   0,0,00H
+	.long   FIRE_p
+FIR_2_5:
+	.word   15,16
+	.long   020abb4aH
+	.word   0,0,00H
+	.long   FIRE_p
+FIR_3_1:
+	.word   35,26
+	.long   020ac2caH
+	.word   0,0,00H
+	.long   FIRE_p
+FIR_3_2:
+	.word   32,23
+	.long   020adf3aH
+	.word   0,0,00H
+	.long   FIRE_p
+FIR_3_3:
+	.word   33,28
+	.long   020af63aH
+	.word   0,0,00H
+	.long   FIRE_p
+FIR_3_4:
+	.word   28,25
+	.long   020b131aH
+	.word   0,0,00H
+	.long   FIRE_p
+FIR_3_5:
+	.word   35,23
+	.long   020b28faH
+	.word   0,0,00H
+	.long   FIRE_p
+FIR_4_1:
+	.word   31,20
+	.long   020b4222H
+	.word   0,0,00H
+	.long   FIRE_p
+FIR_4_2:
+	.word   36,21
+	.long   020b5582H
+	.word   0,0,00H
+	.long   FIRE_p
+FIR_4_3:
+	.word   41,17
+	.long   020b6d22H
+	.word   0,0,00H
+	.long   FIRE_p
+FIR_4_4:
+	.word   21,15
+	.long   020b82eaH
+	.word   0,0,00H
+	.long   FIRE_p
+FIR_4_5:
+	.word   27,17
+	.long   020b8cc2H
+	.word   0,0,00H
+	.long   FIRE_p
+FIR_5_1:
+	.word   42,11
+	.long   020b9b1aH
+	.word   0,0,00H
+	.long   FIRE_p
+FIR_5_2:
+	.word   40,10
+	.long   020ba98aH
+	.word   0,0,00H
+	.long   FIRE_p
+FIR_5_3:
+	.word   41,10
+	.long   020bb60aH
+	.word   0,0,00H
+	.long   FIRE_p
+FIR_5_4:
+	.word   44,10
+	.long   020bc2daH
+	.word   0,0,00H
+	.long   FIRE_p
+FIR_5_5:
+	.word   37,10
+	.long   020bd09aH
+	.word   0,0,00H
+	.long   FIRE_p
+FIR_6_1:
+	.word   37,12
+	.long   020bdc2aH
+	.word   0,0,00H
+	.long   FIRE_p
+FIR_6_2:
+	.word   27,11
+	.long   020bea0aH
+	.word   0,0,00H
+	.long   FIRE_p
+FIR_6_3:
+	.word   30,9
+	.long   020bf352H
+	.word   0,0,00H
+	.long   FIRE_p
+FIR_6_4:
+	.word   28,10
+	.long   020bfbc2H
+	.word   0,0,00H
+	.long   FIRE_p
+FIR_6_5:
+	.word   35,11
+	.long   020c0482H
+	.word   0,0,00H
+	.long   FIRE_p
+FIR_7_1:
+	.word   26,17
+	.long   020c108aH
+	.word   0,0,00H
+	.long   FIRE_p
+FIR_7_2:
+	.word   25,19
+	.long   020c1e5aH
+	.word   0,0,00H
+	.long   FIRE_p
+FIR_7_3:
+	.word   28,15
+	.long   020c2d32H
+	.word   0,0,00H
+	.long   FIRE_p
+FIR_7_4:
+	.word   18,15
+	.long   020c3a52H
+	.word   0,0,00H
+	.long   FIRE_p
+FIR_7_5:
+	.word   22,15
+	.long   020c42c2H
+	.word   0,0,00H
+	.long   FIRE_p
+FIR_8_1:
+	.word   21,15
+	.long   020c4d12H
+	.word   0,0,00H
+	.long   FIRE_p
+FIR_8_2:
+	.word   24,17
+	.long   020c56eaH
+	.word   0,0,00H
+	.long   FIRE_p
+FIR_8_3:
+	.word   22,22
+	.long   020c63aaH
+	.word   0,0,00H
+	.long   FIRE_p
+FIR_8_4:
+	.word   21,22
+	.long   020c72caH
+	.word   0,0,00H
+	.long   FIRE_p
+FIR_8_5:
+	.word   23,21
+	.long   020c813aH
+	.word   0,0,00H
+	.long   FIRE_p
+FIR_9_1:
+	.word   10,29
+	.long   020c9052H
+	.word   0,0,00H
+	.long   FIRE_p
+FIR_9_2:
+	.word   9,29
+	.long   020c9962H
+	.word   0,0,00H
+	.long   FIRE_p
+FIR_9_3:
+	.word   8,28
+	.long   020ca18aH
+	.word   0,0,00H
+	.long   FIRE_p
+FIR_9_4:
+	.word   10,17
+	.long   020ca88aH
+	.word   0,0,00H
+	.long   FIRE_p
+FIR_9_5:
+	.word   10,24
+	.long   020caddaH
+	.word   0,0,00H
+	.long   FIRE_p
+SMK_1_1:
+	.word   10,30
+	.long   020cb55aH
+	.word   0,0,00H
+	.long   CLOUD_P
+SMK_1_2:
+	.word   10,23
+	.long   020cbebaH
+	.word   0,0,00H
+	.long   CLOUD_P
+SMK_1_3:
+	.word   10,28
+	.long   020cc5eaH
+	.word   0,0,00H
+	.long   CLOUD_P
+SMK_1_4:
+	.word   9,32
+	.long   020cceaaH
+	.word   0,0,00H
+	.long   CLOUD_P
+SMK_1_5:
+	.word   9,24
+	.long   020cd7aaH
+	.word   0,0,00H
+	.long   CLOUD_P
+SMK_2_1:
+	.word   20,19
+	.long   020cde6aH
+	.word   0,0,00H
+	.long   CLOUD_P
+SMK_2_2:
+	.word   21,24
+	.long   020cea4aH
+	.word   0,0,00H
+	.long   CLOUD_P
+SMK_2_3:
+	.word   25,27
+	.long   020cfa0aH
+	.word   0,0,00H
+	.long   CLOUD_P
+SMK_2_4:
+	.word   22,28
+	.long   020d0f22H
+	.word   0,0,00H
+	.long   CLOUD_P
+SMK_2_5:
+	.word   16,17
+	.long   020d2262H
+	.word   0,0,00H
+	.long   CLOUD_P
+SMK_3_1:
+	.word   33,23
+	.long   020d2ae2H
+	.word   0,0,00H
+	.long   CLOUD_P
+SMK_3_2:
+	.word   30,23
+	.long   020d429aH
+	.word   0,0,00H
+	.long   CLOUD_P
+SMK_3_3:
+	.word   33,28
+	.long   020d582aH
+	.word   0,0,00H
+	.long   CLOUD_P
+SMK_3_4:
+	.word   25,20
+	.long   020d750aH
+	.word   0,0,00H
+	.long   CLOUD_P
+SMK_3_5:
+	.word   32,21
+	.long   020d84aaH
+	.word   0,0,00H
+	.long   CLOUD_P
+SMK_4_1:
+	.word   30,21
+	.long   020d99aaH
+	.word   0,0,00H
+	.long   CLOUD_P
+SMK_4_2:
+	.word   35,21
+	.long   020dad5aH
+	.word   0,0,00H
+	.long   CLOUD_P
+SMK_4_3:
+	.word   40,17
+	.long   020dc452H
+	.word   0,0,00H
+	.long   CLOUD_P
+SMK_4_4:
+	.word   20,15
+	.long   020dd992H
+	.word   0,0,00H
+	.long   CLOUD_P
+SMK_4_5:
+	.word   25,17
+	.long   020de2f2H
+	.word   0,0,00H
+	.long   CLOUD_P
+SMK_5_1:
+	.word   41,11
+	.long   020df03aH
+	.word   0,0,00H
+	.long   CLOUD_P
+SMK_5_2:
+	.word   38,10
+	.long   020dfe52H
+	.word   0,0,00H
+	.long   CLOUD_P
+SMK_5_3:
+	.word   40,10
+	.long   020e0a32H
+	.word   0,0,00H
+	.long   CLOUD_P
+SMK_5_4:
+	.word   44,10
+	.long   020e16b2H
+	.word   0,0,00H
+	.long   CLOUD_P
+SMK_5_5:
+	.word   37,10
+	.long   020e2472H
+	.word   0,0,00H
+	.long   CLOUD_P
+SMK_6_1:
+	.word   36,10
+	.long   020e3002H
+	.word   0,0,00H
+	.long   CLOUD_P
+SMK_6_2:
+	.word   27,10
+	.long   020e3b42H
+	.word   0,0,00H
+	.long   CLOUD_P
+SMK_6_3:
+	.word   32,9
+	.long   020e43b2H
+	.word   0,0,00H
+	.long   CLOUD_P
+SMK_6_4:
+	.word   28,10
+	.long   020e4cb2H
+	.word   0,0,00H
+	.long   CLOUD_P
+SMK_6_5:
+	.word   28,9
+	.long   020e5572H
+	.word   0,0,00H
+	.long   CLOUD_P
+SMK_7_1:
+	.word   26,18
+	.long   020e5d52H
+	.word   0,0,00H
+	.long   CLOUD_P
+SMK_7_2:
+	.word   26,19
+	.long   020e6bf2H
+	.word   0,0,00H
+	.long   CLOUD_P
+SMK_7_3:
+	.word   28,15
+	.long   020e7b62H
+	.word   0,0,00H
+	.long   CLOUD_P
+SMK_7_4:
+	.word   19,15
+	.long   020e8882H
+	.word   0,0,00H
+	.long   CLOUD_P
+SMK_7_5:
+	.word   21,16
+	.long   020e916aH
+	.word   0,0,00H
+	.long   CLOUD_P
+SMK_8_1:
+	.word   20,13
+	.long   020e9beaH
+	.word   0,0,00H
+	.long   CLOUD_P
+SMK_8_2:
+	.word   24,17
+	.long   020ea40aH
+	.word   0,0,00H
+	.long   CLOUD_P
+SMK_8_3:
+	.word   21,21
+	.long   020eb0caH
+	.word   0,0,00H
+	.long   CLOUD_P
+SMK_8_4:
+	.word   21,22
+	.long   020ebe92H
+	.word   0,0,00H
+	.long   CLOUD_P
+SMK_8_5:
+	.word   23,20
+	.long   020ecd02H
+	.word   0,0,00H
+	.long   CLOUD_P
+SMK_9_1:
+	.word   10,24
+	.long   020edb62H
+	.word   0,0,00H
+	.long   CLOUD_P
+SMK_9_2:
+	.word   9,27
+	.long   020ee2e2H
+	.word   0,0,00H
+	.long   CLOUD_P
+SMK_9_3:
+	.word   10,27
+	.long   020eea7aH
+	.word   0,0,00H
+	.long   CLOUD_P
+SMK_9_4:
+	.word   10,26
+	.long   020ef2eaH
+	.word   0,0,00H
+	.long   CLOUD_P
+SMK_9_5:
+	.word   10,21
+	.long   020efb0aH
+	.word   0,0,00H
+	.long   CLOUD_P
+SMBOOM1:
+	.word   8,11
+	.long   020f019aH
+	.word   3,10,00H
+	.long   BOOM_P
+SMBOOM2:
+	.word   12,17
+	.long   020f045aH
+	.word   5,16,00H
+	.long   BOOM_P
+SMBOOM3:
+	.word   20,20
+	.long   020f0abaH
+	.word   9,19,07000H
+	.long   BOOM_P
+SMBOOM4:
+	.word   25,23
+	.long   020f15aaH
+	.word   12,22,00H
+	.long   BOOM_P
+SMBOOM5:
+	.word   28,22
+	.long   020f27a2H
+	.word   13,21,00H
+	.long   BOOM_P
+SMBOOM6:
+	.word   30,22
+	.long   020f3ae2H
+	.word   14,21,00H
+	.long   BOOM_P
+SMBOOM7:
+	.word   30,22
+	.long   020f4f82H
+	.word   14,21,00H
+	.long   BOOM_P
+SMBOOM8:
+	.word   32,24
+	.long   020f6422H
+	.word   15,23,00H
+	.long   BOOM_P
+SMBOOM9:
+	.word   33,20
+	.long   020f7c22H
+	.word   16,19,00H
+	.long   BOOM_P
+SMBOOM10:
+	.word   34,18
+	.long   020f90c2H
+	.word   16,17,00H
+	.long   BOOM_P
+LGBOOM1:
+	.word   12,17
+	.long   020fa3e2H
+	.word   5,16,00H
+	.long   BOOM_P
+LGBOOM2:
+	.word   18,24
+	.long   02

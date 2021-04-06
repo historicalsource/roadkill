@@ -1,0 +1,9 @@
+
+P DR           450 FF825700         MOVK    5,A2            ;HOW MANY DRONES TO MAKE
+	MOVK 8,A2
+
+P DRH         2014 FF84B0C0         NOP
+	RETS
+
+P DRM          367 FF866570         DEC     A3
+	NOP

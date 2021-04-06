@@ -1,0 +1,27 @@
+; FILE: LRK3.LOD
+; LOAD2 COMMAND FILE
+;
+; JFL 12 FEB 93
+;
+
+***> 3000000
+IHDR SIZX:W,SIZY:W,SAG:L,ANIX:W,ANIY:W,CTRL:W,PAL:L
+
+;---------------------------------------------------------------------------
+ASM> IMGTBLC2.TBL
+GLO> IMGTBLC2.GLO
+
+JOEMEN.IMG
+---> standA,standB,standC,standD,standE,runmanA1,runmanA2,runmanA3,runmanA4
+---> runmanA5,runmanA6,runmanA7,runmanB1,runmanB2,runmanB3,runmanB4,runmanB5
+---> runmanB6,runmanB7,runmanC1,runmanC2,runmanC3,runmanC4,runmanC5,runmanC6
+---> runmanC7,runmanD1,runmanD2,runmanD3,runmanD4,runmanD5,runmanD6,runmanD7
+---> runmanE1,runmanE2,runmanE3,runmanE4,runmanE5,runmanE6,runmanE7
+
+;----- LAST IMAGE IN THIS ROM ----------------------------------------------
+JOEMISC.IMG
+COF>
+---> IMG3X
+
+; EOF
+

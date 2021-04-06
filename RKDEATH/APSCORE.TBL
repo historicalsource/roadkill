@@ -1,0 +1,273 @@
+
+	.DATA
+SCR1000:
+	.word   28,8
+	.long   02274c70H
+	.word   14,4,06000H
+	.long   REDPLAYR
+SCR2000:
+	.word   30,8
+	.long   022751b0H
+	.word   16,4,06000H
+SCR3000:
+	.word   30,8
+	.long   02275750H
+	.word   16,4,06000H
+SCR4000:
+	.word   30,8
+	.long   02275cf0H
+	.word   16,4,06000H
+SCR5000:
+	.word   30,8
+	.long   02276290H
+	.word   16,4,06000H
+SCR6000:
+	.word   30,8
+	.long   02276830H
+	.word   16,4,06000H
+SCR7000:
+	.word   30,8
+	.long   02276dd0H
+	.word   16,4,06000H
+SCR8000:
+	.word   30,8
+	.long   02277370H
+	.word   16,4,06000H
+SCR9000:
+	.word   30,8
+	.long   02276830H
+	.word   16,4,06000H
+SCR10000:
+	.word   36,8
+	.long   02277910H
+	.word   18,4,06000H
+SCR15000:
+	.word   36,8
+	.long   02277fd0H
+	.word   18,4,06000H
+SCR20000:
+	.word   38,8
+	.long   02278690H
+	.word   20,4,06000H
+SCR25000:
+	.word   38,8
+	.long   02278db0H
+	.word   20,4,06000H
+SCR40000:
+	.word   38,8
+	.long   022794d0H
+	.word   20,4,06000H
+SCR80000:
+	.word   38,8
+	.long   02279bf0H
+	.word   20,4,06000H
+SCR500:
+	.word   22,8
+	.long   0227a310H
+	.word   10,4,06000H
+T1ENERBAR:
+	.word   10,105
+	.long   0227a730H
+	.word   5,148,06000H
+	.long   BLUPLAYR
+T1ENERDAN:
+	.word   10,39
+	.long   0227bfccH
+	.word   5,43,06000H
+	.long   BLUPLAYR
+T1ENERENE:
+	.word   10,39
+	.long   0227c8f0H
+	.word   5,43,06000H
+	.long   BLUPLAYR
+T1GUNBAR:
+	.word   115,7
+	.long   0227d214H
+	.word   -77,4,06000H
+	.long   BLUPLAYR
+T1GUNCURS:
+	.word   8,6
+	.long   0227e4f2H
+	.word   4,3,06000H
+	.long   BLUPLAYR
+T1GUNGUN:
+	.word   72,7
+	.long   0227e612H
+	.word   -5,4,06000H
+	.long   BLUPLAYR
+T1SBOX:
+	.word   185,21
+	.long   0227f1e2H
+	.word   0,0,06000H
+	.long   BLUPLAYR
+T2ENERBAR:
+	.word   10,105
+	.long   0227a730H
+	.word   5,148,06000H
+	.long   REDPLAYR
+T2ENERDAN:
+	.word   10,39
+	.long   0227bfccH
+	.word   5,43,06000H
+	.long   REDPLAYR
+T2ENERENE:
+	.word   10,39
+	.long   0227c8f0H
+	.word   5,43,06000H
+	.long   REDPLAYR
+T2GUNBAR:
+	.word   115,7
+	.long   0227d214H
+	.word   192,4,06000H
+	.long   REDPLAYR
+T2GUNCURS:
+	.word   8,6
+	.long   0227e4f2H
+	.word   4,3,06000H
+	.long   REDPLAYR
+T2GUNGUN:
+	.word   72,7
+	.long   0227e612H
+	.word   78,4,06000H
+	.long   REDPLAYR
+T2SBOX:
+	.word   185,21
+	.long   0227f1e2H
+	.word   0,0,06000H
+	.long   REDPLAYR
+TERone:
+	.word   49,11
+	.long   02284cf0H
+	.word   0,0,06000H
+	.long   BLUPLAYR
+TERtwo:
+	.word   49,11
+	.long   02285992H
+	.word   0,0,06000H
+	.long   REDPLAYR
+launch10:
+	.word   16,14
+	.long   02286634H
+	.word   8,7,06000H
+	.long   BLUPLAYR
+T1PRESS:
+	.word   185,21
+	.long   02286b74H
+	.word   0,0,06000H
+	.long   BLUPLAYR
+T1INSERT:
+	.word   185,21
+	.long   0228c682H
+	.word   0,0,06000H
+	.long   BLUPLAYR
+T1TOPLAY:
+	.word   185,21
+	.long   02292190H
+	.word   0,0,06000H
+	.long   BLUPLAYR
+SNUM0:
+	.word   11,7
+	.long   02297c9eH
+	.word   0,0,06000H
+	.long   REDPLAYR
+SNUM1:
+	.word   11,7
+	.long   02297e6cH
+	.word   0,0,06000H
+	.long   REDPLAYR
+SNUM2:
+	.word   11,7
+	.long   0229803aH
+	.word   0,0,06000H
+	.long   REDPLAYR
+SNUM3:
+	.word   11,7
+	.long   02298208H
+	.word   0,0,06000H
+	.long   REDPLAYR
+SNUM4:
+	.word   11,7
+	.long   022983d6H
+	.word   0,0,06000H
+	.long   REDPLAYR
+SNUM5:
+	.word   11,7
+	.long   0229803aH
+	.word   0,0,06000H
+	.long   REDPLAYR
+SNUM6:
+	.word   11,7
+	.long   022985a4H
+	.word   0,0,06000H
+	.long   REDPLAYR
+SNUM7:
+	.word   11,7
+	.long   02298772H
+	.word   0,0,06000H
+	.long   REDPLAYR
+SNUM8:
+	.word   11,7
+	.long   02298940H
+	.word   0,0,06000H
+	.long   REDPLAYR
+SNUM9:
+	.word   11,7
+	.long   022985a4H
+	.word   0,0,06000H
+	.long   REDPLAYR
+CNUM0:
+	.word   11,7
+	.long   02298b0eH
+	.word   0,0,06000H
+	.long   REDPLAYR
+CNUM1:
+	.word   11,7
+	.long   02298cdcH
+	.word   0,0,06000H
+	.long   REDPLAYR
+CNUM2:
+	.word   11,7
+	.long   02298eaaH
+	.word   0,0,06000H
+	.long   REDPLAYR
+CNUM3:
+	.word   11,7
+	.long   02299078H
+	.word   0,0,06000H
+	.long   REDPLAYR
+CNUM4:
+	.word   11,7
+	.long   02299246H
+	.word   0,0,06000H
+	.long   REDPLAYR
+CNUM5:
+	.word   11,7
+	.long   02298eaaH
+	.word   0,0,06000H
+	.long   REDPLAYR
+CNUM6:
+	.word   11,7
+	.long   02299414H
+	.word   0,0,06000H
+	.long   REDPLAYR
+CNUM7:
+	.word   11,7
+	.long   022995e2H
+	.word   0,0,06000H
+	.long   REDPLAYR
+CNUM8:
+	.word   11,7
+	.long   022997b0H
+	.word   0,0,06000H
+	.long   REDPLAYR
+CNUM9:
+	.word   11,7
+	.long   02299414H
+	.word   0,0,06000H
+	.long   REDPLAYR
+calsight:
+	.word   25,25
+	.long   0229997eH
+	.word   12,12,05000H
+	.long   T2FIXED
+	.TEXT

@@ -1,0 +1,491 @@
+	.DATA
+SCOR_0:
+	.word   8,11
+	.long   04000000H
+	.word   3,5,07000H
+	.long   SCOR_B_P
+SCOR_1:
+	.word   8,11
+	.long   04000268H
+	.word   1,5,07000H
+	.long   SCOR_B_P
+SCOR_2:
+	.word   8,11
+	.long   040004d0H
+	.word   3,5,07000H
+	.long   SCOR_B_P
+SCOR_3:
+	.word   8,11
+	.long   04000738H
+	.word   3,5,07000H
+	.long   SCOR_B_P
+SCOR_4:
+	.word   8,11
+	.long   040009a0H
+	.word   3,5,07000H
+	.long   SCOR_B_P
+SCOR_5:
+	.word   8,11
+	.long   04000c08H
+	.word   3,5,07000H
+	.long   SCOR_B_P
+SCOR_6:
+	.word   8,11
+	.long   04000e70H
+	.word   3,5,07000H
+	.long   SCOR_B_P
+SCOR_7:
+	.word   8,11
+	.long   040010d8H
+	.word   3,5,07000H
+	.long   SCOR_B_P
+SCOR_8:
+	.word   8,11
+	.long   04001340H
+	.word   3,5,07000H
+	.long   SCOR_B_P
+SCOR_9:
+	.word   8,11
+	.long   040015a8H
+	.word   3,5,07000H
+	.long   SCOR_B_P
+LAP_0:
+	.word   11,12
+	.long   04001810H
+	.word   5,5,07000H
+	.long   SCOR_B_P
+LAP_1:
+	.word   11,12
+	.long   04001bacH
+	.word   2,5,07000H
+	.long   SCOR_B_P
+LAP_2:
+	.word   11,12
+	.long   04001f48H
+	.word   5,5,07000H
+	.long   SCOR_B_P
+LAP_3:
+	.word   11,12
+	.long   040022e4H
+	.word   5,5,07000H
+	.long   SCOR_B_P
+LAP_4:
+	.word   11,12
+	.long   04002680H
+	.word   5,5,07000H
+	.long   SCOR_B_P
+LAP_5:
+	.word   11,12
+	.long   04002a1cH
+	.word   5,5,07000H
+	.long   SCOR_B_P
+LAP_6:
+	.word   11,12
+	.long   04002db8H
+	.word   5,5,07000H
+	.long   SCOR_B_P
+LAP_7:
+	.word   11,12
+	.long   04003154H
+	.word   5,5,07000H
+	.long   SCOR_B_P
+LAP_8:
+	.word   11,12
+	.long   040034f0H
+	.word   5,5,07000H
+	.long   SCOR_B_P
+LAP_9:
+	.word   11,12
+	.long   0400388cH
+	.word   5,5,07000H
+	.long   SCOR_B_P
+SCRBOXR_1:
+	.word   112,3
+	.long   04003c28H
+	.word   55,-8,00H
+	.long   SCOR_R_P
+SCRBOXG_2:
+	.word   3,34
+	.long   040046a8H
+	.word   -54,-11,00H
+	.long   SCOR_G_P
+SCRBOXB_3:
+	.word   88,3
+	.long   040049d8H
+	.word   34,-22,00H
+	.long   SCOR_B_P
+SCRBOX_4:
+	.word   3,20
+	.long   04005218H
+	.word   -7,-25,00H
+	.long   SCOR_B_P
+SCRBOX_5:
+	.word   3,34
+	.long   040053f8H
+	.word   37,-11,00H
+	.long   SCOR_B_P
+SCRBOX_6:
+	.word   3,34
+	.long   04005728H
+	.word   55,-11,00H
+	.long   SCOR_B_P
+SCRBOX_7:
+	.word   112,3
+	.long   04005a58H
+	.word   55,-45,00H
+	.long   SCOR_B_P
+SCRBOX_8:
+	.word   109,3
+	.long   040064d8H
+	.word   53,-49,00H
+	.long   SCOR_B_P
+INSERT:
+	.word   78,11
+	.long   04006f10H
+	.word   29,-11,06000H
+	.long   SCOR_B_P
+PRESS:
+	.word   83,11
+	.long   0400832cH
+	.word   31,-12,06000H
+	.long   SCOR_B_P
+CONTNU:
+	.word   82,11
+	.long   04009892H
+	.word   31,-32,06000H
+	.long   SCOR_B_P
+SCR_SKUL:
+	.word   37,35
+	.long   0400adb6H
+	.word   46,-19,07000H
+	.long   SCOR_B_P
+SCR_MISL:
+	.word   14,33
+	.long   0400d11fH
+	.word   52,-6,00H
+	.long   SCOR_B_P
+SCR_TURB:
+	.word   35,29
+	.long   0400df8fH
+	.word   -9,-21,00H
+	.long   SCOR_B_P
+SCR_DOL:
+	.word   14,17
+	.long   0400ff47H
+	.word   35,-8,07000H
+	.long   SCOR_B_P
+R_1:
+	.word   244,71
+	.long   040105c9H
+	.word   121,35,06000H
+	.long   SCRFNT_P
+S_2:
+	.word   146,71
+	.long   04029bd1H
+	.word   72,35,06000H
+	.long   SCRFNT_P
+G_3:
+	.word   97,71
+	.long   04038ec5H
+	.word   48,35,06000H
+	.long   SCRFNT_P
+ONE:
+	.word   22,71
+	.long   0404302fH
+	.word   10,35,06000H
+	.long   SCRFNT_P
+TWO:
+	.word   48,71
+	.long   040454cbH
+	.word   23,35,06000H
+	.long   SCRFNT_P
+THREE:
+	.word   48,71
+	.long   0404a4abH
+	.word   23,35,06000H
+	.long   SCRFNT_P
+FOUR:
+	.word   48,71
+	.long   0404f48bH
+	.word   23,35,06000H
+	.long   SCRFNT_P
+FIVE:
+	.word   48,71
+	.long   0405446bH
+	.word   23,35,06000H
+	.long   SCRFNT_P
+PRESTRT:
+	.word   84,25
+	.long   0405944bH
+	.word   41,12,05000H
+	.long   SCRFNT_P
+READY:
+	.word   46,12
+	.long   0405bd4fH
+	.word   22,5,05000H
+	.long   SCRFNT_P
+FONT_A:
+	.word   9,13
+	.long   0405c817H
+	.word   0,0,07000H
+	.long   SCOR_B_P
+FONT_B:
+	.word   9,13
+	.long   0405cb4aH
+	.word   0,0,07000H
+	.long   SCOR_B_P
+FONT_C:
+	.word   9,13
+	.long   0405ce7dH
+	.word   0,0,07000H
+	.long   SCOR_B_P
+FONT_D:
+	.word   9,13
+	.long   0405d1b0H
+	.word   0,0,07000H
+	.long   SCOR_B_P
+FONT_E:
+	.word   9,13
+	.long   0405d4e3H
+	.word   0,0,07000H
+	.long   SCOR_B_P
+FONT_F:
+	.word   9,13
+	.long   0405d816H
+	.word   0,0,07000H
+	.long   SCOR_B_P
+FONT_G:
+	.word   9,13
+	.long   0405db49H
+	.word   0,0,07000H
+	.long   SCOR_B_P
+FONT_H:
+	.word   9,13
+	.long   0405de7cH
+	.word   0,0,07000H
+	.long   SCOR_B_P
+FONT_I:
+	.word   9,13
+	.long   0405e1afH
+	.word   0,0,07000H
+	.long   SCOR_B_P
+FONT_J:
+	.word   9,13
+	.long   0405e4e2H
+	.word   0,0,07000H
+	.long   SCOR_B_P
+FONT_K:
+	.word   9,13
+	.long   0405e815H
+	.word   0,0,07000H
+	.long   SCOR_B_P
+FONT_L:
+	.word   9,13
+	.long   0405eb48H
+	.word   0,0,07000H
+	.long   SCOR_B_P
+FONT_M:
+	.word   9,13
+	.long   0405ee7bH
+	.word   0,0,07000H
+	.long   SCOR_B_P
+FONT_N:
+	.word   9,13
+	.long   0405f1aeH
+	.word   0,0,07000H
+	.long   SCOR_B_P
+FONT_O:
+	.word   9,13
+	.long   0405f4e1H
+	.word   0,0,07000H
+	.long   SCOR_B_P
+FONT_P:
+	.word   9,13
+	.long   0405f814H
+	.word   0,0,07000H
+	.long   SCOR_B_P
+FONT_Q:
+	.word   9,13
+	.long   0405fb47H
+	.word   0,0,07000H
+	.long   SCOR_B_P
+FONT_R:
+	.word   9,13
+	.long   0405fe7aH
+	.word   0,0,07000H
+	.long   SCOR_B_P
+FONT_S:
+	.word   9,13
+	.long   040601adH
+	.word   0,0,07000H
+	.long   SCOR_B_P
+FONT_T:
+	.word   9,13
+	.long   040604e0H
+	.word   0,0,07000H
+	.long   SCOR_B_P
+FONT_U:
+	.word   9,13
+	.long   04060813H
+	.word   0,0,07000H
+	.long   SCOR_B_P
+FONT_V:
+	.word   9,13
+	.long   04060b46H
+	.word   0,0,07000H
+	.long   SCOR_B_P
+FONT_W:
+	.word   9,13
+	.long   04060e79H
+	.word   0,0,07000H
+	.long   SCOR_B_P
+FONT_X:
+	.word   9,13
+	.long   040611acH
+	.word   0,0,07000H
+	.long   SCOR_B_P
+FONT_Y:
+	.word   9,13
+	.long   040614dfH
+	.word   0,0,07000H
+	.long   SCOR_B_P
+FONT_Z:
+	.word   9,13
+	.long   04061812H
+	.word   0,0,07000H
+	.long   SCOR_B_P
+RRD0:
+	.word   7,9
+	.long   04061b45H
+	.word   0,0,02000H
+	.long   DUXPAL
+RRD1:
+	.word   7,9
+	.long   04061bc3H
+	.word   0,0,02000H
+	.long   DUXPAL
+RRD2:
+	.word   7,9
+	.long   04061c41H
+	.word   0,0,02000H
+	.long   DUXPAL
+RRD3:
+	.word   7,9
+	.long   04061cbfH
+	.word   0,0,02000H
+	.long   DUXPAL
+RRD4:
+	.word   7,9
+	.long   04061d3dH
+	.word   0,0,02000H
+	.long   DUXPAL
+RRD5:
+	.word   7,9
+	.long   04061dbbH
+	.word   0,0,02000H
+	.long   DUXPAL
+RRD6:
+	.word   7,9
+	.long   04061e39H
+	.word   0,0,02000H
+	.long   DUXPAL
+RRD7:
+	.word   7,9
+	.long   04061eb7H
+	.word   0,0,02000H
+	.long   DUXPAL
+RRD8:
+	.word   7,9
+	.long   04061f35H
+	.word   0,0,02000H
+	.long   DUXPAL
+RRD9:
+	.word   7,9
+	.long   04061fb3H
+	.word   0,0,02000H
+	.long   DUXPAL
+woods27:
+	.word   139,42
+	.long   04062031H
+	.word   0,0,00H
+	.long   WATER_P
+woods26:
+	.word   139,42
+	.long   0406d6a1H
+	.word   0,0,00H
+	.long   WATER_P
+woods25:
+	.word   139,42
+	.long   04078d11H
+	.word   0,0,00H
+	.long   WATER_P
+woods24:
+	.word   139,42
+	.long   04084381H
+	.word   0,0,00H
+	.long   WATER_P
+woodtr1a:
+	.word   30,31
+	.long   0408f9f1H
+	.word   16,30,00H
+	.long   WOODS6_P
+woodtr1b:
+	.word   32,29
+	.long   04091701H
+	.word   15,28,00H
+	.long   WOODS6_P
+woodtr1c:
+	.word   30,32
+	.long   04093401H
+	.word   16,31,00H
+	.long   WOODS6_P
+woodtr2a:
+	.word   54,95
+	.long   04095201H
+	.word   12,94,00H
+	.long   WOODS6_P
+woodtr2b:
+	.word   59,96
+	.long   0409f251H
+	.word   12,95,00H
+	.long   WOODS6_P
+woodtr2c:
+	.word   52,97
+	.long   040aa351H
+	.word   12,96,00H
+	.long   WOODS6_P
+woodtr3a:
+	.word   84,95
+	.long   040b40f1H
+	.word   43,94,00H
+	.long   WOODS2_P
+woodtr3b:
+	.word   86,95
+	.long   040c3a51H
+	.word   38,94,00H
+	.long   WOODS2_P
+woodtr3c:
+	.word   81,96
+	.long   040d39a1H
+	.word   49,95,00H
+	.long   WOODS2_P
+woodtr4a:
+	.word   57,73
+	.long   040e2ca1H
+	.word   31,72,00H
+	.long   WOODS2_P
+woodtr4b:
+	.word   57,72
+	.long   040eaea9H
+	.word   25,71,00H
+	.long   WOODS2_P
+woodtr4c:
+	.word   56,75
+	.long   040f2ee9H
+	.word   37,74,00H
+	.long   WOODS2_P
+cloud1:
+	.word   77,31
+	.long   040fb229H
+	.word   0,0,07000H
+	.long   STADM6_P
